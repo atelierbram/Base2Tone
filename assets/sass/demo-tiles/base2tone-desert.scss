@@ -1,0 +1,91 @@
+// $baseA0: "292824";
+// $baseA1: "3d3a34";
+// $baseA2: "615e51";
+// $baseA3: "7e7967";
+// $baseA4: "908974";
+// $baseA5: "9f9884";
+// $baseA6: "ada794";
+// $baseA7: "bbb6a5";
+
+// $baseB0: "5c553d";
+// $baseB1: "6e6445";
+// $baseB2: "81744b";
+// $baseB3: "958550";
+// $baseB4: "ac9753";
+// $baseB5: "c6b57b";
+// $baseB6: "ddd0a6";
+// $baseB7: "f2ecd9";
+
+// $baseC0: "847b75";
+// $baseC1: "978d87";
+// $baseC2: "a89f99";
+// $baseC3: "b9b1ac";
+// $baseC4: "cac3be";
+// $baseC5: "dcd5d0";
+// $baseC6: "ede7e3";
+// $baseC7: "fbfaf9";
+
+// $baseD0: "bc672f";
+// $baseD1: "d37231";
+// $baseD2: "dd7c3c";
+// $baseD3: "e58748";
+// $baseD4: "ec9255";
+// $baseD5: "f29d63";
+// $baseD6: "f8a872";
+// $baseD7: "ffb380";
+
+$base00: hsl(46, 7%, 15%);
+$base01: hsl(46, 8%, 22%);
+$base02: hsl(46, 9%, 35%);
+$base03: hsl(46, 10%, 45%);
+$base04: hsl(46, 15%, 35%);
+$base05: hsl(46, 30%, 55%);
+$base06: hsl(46, 60%, 75%);
+$base07: hsl(46, 70%, 94%);
+$base08: hsl(46, 20%, 40%);
+$base09: hsl(24, 70%, 55%);
+$base0A: hsl(24, 80%, 65%);
+$base0B: hsl(24, 37%, 63%);
+$base0C: hsl(24, 100%, 75%);
+$base0D: hsl(24, 90%, 70%);
+$base0E: hsl(46, 25%, 50%);
+$base0F: hsl(46, 20%, 45%);
+
+$baseA0: hsl(46, 7%, 15%);
+$baseA1: hsl(46, 8%, 22%);
+$baseA2: hsl(46, 9%, 35%);
+$baseA3: hsl(46, 10%, 45%);
+$baseA4: hsl(46, 11%, 51%);
+$baseA5: hsl(46, 12%, 57%);
+$baseA6: hsl(46, 13%, 63%);
+$baseA7: hsl(46, 14%, 69%);
+
+$baseB0: hsl(46, 20%, 30%);
+$baseB1: hsl(46, 23%, 35%);
+$baseB2: hsl(46, 26%, 40%);
+$baseB3: hsl(46, 30%, 45%);
+$baseB4: hsl(46, 35%, 50%);
+$baseB5: hsl(46, 40%, 63%);
+$baseB6: hsl(46, 45%, 76%);
+$baseB7: hsl(46, 50%, 90%);
+
+$baseC0: hsl(24, 6%, 49%);
+$baseC1: hsl(24, 7%, 56%);
+$baseC2: hsl(24, 8%, 63%);
+$baseC3: hsl(24, 8%, 70%);
+$baseC4: hsl(24, 10%, 77%);
+$baseC5: hsl(24, 15%, 84%);
+$baseC6: hsl(24, 20%, 91%);
+$baseC7: hsl(24, 25%, 98%);
+
+$baseD0: hsl(24, 60%, 46%);
+$baseD1: hsl(24, 65%, 51%);
+$baseD2: hsl(24, 70%, 55%);
+$baseD3: hsl(24, 75%, 59%);
+$baseD4: hsl(24, 80%, 63%);
+$baseD5: hsl(24, 85%, 67%);
+$baseD6: hsl(24, 90%, 71%);
+$baseD7: hsl(24, 100%, 75%);
+
+@import "../../output/prism/_prism-base2tone-desert";
+@import "demo";

@@ -1,12 +1,12 @@
 !function(name,definition){if(typeof module!="undefined")module.exports=definition();else if(typeof define=="function"&&typeof define.amd=="object")define(definition);else this[name]=definition()}("domready",function(){var fns=[],listener,doc=document,hack=doc.documentElement.doScroll,domContentLoaded="DOMContentLoaded",loaded=(hack?/^loaded|^c/:/^loaded|^i|^c/).test(doc.readyState);if(!loaded)doc.addEventListener(domContentLoaded,listener=function(){doc.removeEventListener(domContentLoaded,listener); loaded=1;while(listener=fns.shift())listener()});return function(fn){loaded?setTimeout(fn,0):fns.push(fn)}});domready(function(){document.documentElement.className+=" domready"});
 domready(function() {
-    var navVariation = document.getElementById("navVariation");
+    // var navVariation = document.getElementById("navVariation");
     var navBtn = document.createElement("a");
-    navBtn.setAttribute("href", "#!");
-    navBtn.setAttribute("class", "nav_toggle nav_toggle-variation");
-    navBtn.insertAdjacentHTML("beforeend", '<span class="btn-text">light-dark variation</span>');
-    navVariation.insertBefore(navBtn, navVariation.firstChild);
-    navVariation.classList.add("nav-closed");
+    // navBtn.setAttribute("href", "#!");
+    // navBtn.setAttribute("class", "nav_toggle nav_toggle-variation");
+    // navBtn.insertAdjacentHTML("beforeend", '<span class="btn-text">light-dark variation</span>');
+    // navVariation.insertBefore(navBtn, navVariation.firstChild);
+    // navVariation.classList.add("nav-closed");
 
     function hasClass(e, t) {
         return (new RegExp(" " + t + " ")).test(" " + e.className + " ")
@@ -77,6 +77,14 @@ domready(function() {
             numberShades.innerHTML = numberShades.getAttribute("data-text-swap")
         }
     }, false)
+
+var td = document.querySelectorAll('td');
+Array.prototype.forEach.call(td, function(el, i){
+
+    var colorValue = td[i].innerHTML;
+    td[i].style.backgroundColor = colorValue;
+
+});
 
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 });

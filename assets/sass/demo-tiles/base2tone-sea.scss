@@ -1,0 +1,74 @@
+// $baseA0: "1d262f";
+// $baseA1: "27323f";
+// $baseA2: "405368";
+// $baseA3: "4a5f78";
+// $baseA4: "738191";
+// $baseA5: "8a96a3";
+// $baseA6: "a1aab5";
+// $baseA7: "b8bfc7";
+
+// $baseB0: "004a9e";
+// $baseB1: "1757a1";
+// $baseB2: "34659d";
+// $baseB3: "57718e";
+// $baseB4: "6e9bcf";
+// $baseB5: "7eb6f6";
+// $baseB6: "afd4fe";
+// $baseB7: "ebf4ff";
+
+// $baseC0: "717a77";
+// $baseC1: "818d89";
+// $baseC2: "939f9b";
+// $baseC3: "a6b0ad";
+// $baseC4: "b7c2be";
+// $baseC5: "cbd7d3";
+// $baseC6: "e1eae7";
+// $baseC7: "f9fbfa";
+
+// $baseD0: "067953";
+// $baseD1: "088c60";
+// $baseD2: "0aa370";
+// $baseD3: "0db57d";
+// $baseD4: "0fc78a";
+// $baseD5: "14e19d";
+// $baseD6: "2aeaaa";
+// $baseD7: "47ebb4";
+
+$baseA0: hsl(212, 24%, 15%);
+$baseA1: hsl(212, 24%, 20%);
+$baseA2: hsl(212, 24%, 33%);
+$baseA3: hsl(212, 24%, 38%);
+$baseA4: hsl(212, 12%, 51%);
+$baseA5: hsl(212, 12%, 59%);
+$baseA6: hsl(212, 12%, 67%);
+$baseA7: hsl(212, 12%, 75%);
+
+$baseB0: hsl(212, 100%, 31%);
+$baseB1: hsl(212, 75%, 36%);
+$baseB2: hsl(212, 50%, 41%);
+$baseB3: hsl(212, 24%, 45%);
+$baseB4: hsl(212, 50%, 62%);
+$baseB5: hsl(212, 87%, 73%);
+$baseB6: hsl(212, 97%, 84%);
+$baseB7: hsl(212, 100%, 96%);
+
+$baseC0: hsl(160, 4%, 46%);
+$baseC1: hsl(160, 5%, 53%);
+$baseC2: hsl(160, 6%, 60%);
+$baseC3: hsl(160, 6%, 67%);
+$baseC4: hsl(160, 8%, 74%);
+$baseC5: hsl(160, 13%, 82%);
+$baseC6: hsl(160, 18%, 90%);
+$baseC7: hsl(160, 23%, 98%);
+
+$baseD0: hsl(160, 90%, 25%);
+$baseD1: hsl(160, 89%, 29%);
+$baseD2: hsl(160, 88%, 34%);
+$baseD3: hsl(160, 87%, 38%);
+$baseD4: hsl(160, 86%, 42%);
+$baseD5: hsl(160, 84%, 48%);
+$baseD6: hsl(160, 82%, 54%);
+$baseD7: hsl(160, 80%, 60%);
+
+@import "../../output/prism/_prism-base2tone-sea";
+@import "demo";
