@@ -4,7 +4,7 @@
 overwrite_to_file()
 {
 
- curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/index.php" > "../index.html"
+ curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/index/index.php" > "../index.html"
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/evening/index.php" > "../demo/evening/index.html"
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/morning/index.php" > "../demo/morning/index.html"
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/sea/index.php" > "../demo/sea/index.html"

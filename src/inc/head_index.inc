@@ -7,7 +7,7 @@
   <meta name="description" content="<?php echo $description; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo $rootUrl; ?>assets/css/demo-tiles/base2tone-<?php echo $theme; ?>.css">
-<script><?php include "../inc/head-detect-js.inc"; ?></script>
+<script><?php include "inc/head-detect-js.inc"; ?></script>
   </head>
     <body class="theme-<?php echo $id; ?>">
 
