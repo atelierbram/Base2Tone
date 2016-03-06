@@ -70,23 +70,28 @@ body {
   color: $baseA0;
 }
 
-.bg-light,
-.bg-light body {
-  background-color: adjust-color($baseA7, $lightness: 5%);
-  color: $baseC7;
-}
+// .bg-light,
+// .bg-light body {
+//   background-color: adjust-color($baseA7, $lightness: 5%);
+//   color: $baseC7;
+// }
 
 body {
   margin: 0;
   font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
   background: inherit;
-  color: #111;
   min-height: 100%;
   box-sizing: border-box;
 }
 
 section {
   padding-bottom: 5em;
+}
+
+// override inital hiding in head styles
+section,
+h3 {
+  opacity: 1;
 }
 
 .wf-active body,
@@ -126,9 +131,9 @@ h2, h3 {
   color: $baseA1;
 }
 
-.bg-light .col h3 {
-  color: $baseA5;
-}
+// .bg-light .col h3 {
+//   color: $baseA5;
+// }
 
 a {
   text-decoration: none;
@@ -158,14 +163,14 @@ a {
   color: $baseD3 !important;
 }
 
-.bg-light .github-corner svg[style] {
-  color: $baseC0 !important;
-}
-
-.bg-light .github-corner:hover svg[style] {
-  color: $baseD7 !important;
-}
-
+// .bg-light .github-corner svg[style] {
+//   color: $baseC0 !important;
+// }
+//
+// .bg-light .github-corner:hover svg[style] {
+//   color: $baseD7 !important;
+// }
+//
 .bg-dark .header {
   background: $baseA2;
 }
@@ -174,14 +179,14 @@ a {
   background: $baseA1;
 }
 
-.bg-light .header {
-  background: $baseC0;
-}
-
-.bg-light .footer {
-  background: $baseC1;
-}
-
+// .bg-light .header {
+//   background: $baseC0;
+// }
+//
+// .bg-light .footer {
+//   background: $baseC1;
+// }
+//
 .header {
   padding: .5em 1em 2em;
 
@@ -226,14 +231,12 @@ a {
   }
 }
 
-.bg-light .header a {
-  // color: $baseD7;
-    // color: adjust-color($baseD7, $lightness: 5%);
-    color: $baseD7;
-  &:hover {
-    color: adjust-color($baseD7, $lightness: 5%);
-  }
-}
+// .bg-light .header a {
+//     color: $baseD7;
+//   &:hover {
+//     color: adjust-color($baseD7, $lightness: 5%);
+//   }
+// }
 
 .theme-morning-light .header a,
 .theme-earth-light .header a,
@@ -252,12 +255,12 @@ a {
   }
 }
 
-.bg-light .footer a {
-  color: adjust-color($baseD7, $lightness: 0%);
-  &:hover {
-    color: adjust-color($baseD7, $lightness: 10%);
-  }
-}
+// .bg-light .footer a {
+//   color: adjust-color($baseD7, $lightness: 0%);
+//   &:hover {
+//     color: adjust-color($baseD7, $lightness: 10%);
+//   }
+// }
 
 // logo
 .logo {
@@ -278,17 +281,13 @@ svg {
   fill: $baseB6;
 }
 
-.bg-light [id*="logo-glyphs"] {
-  fill: $baseB7;
-}
+// .bg-light [id*="logo-glyphs"] {
+//   fill: $baseB7;
+// }
 
-.bg-dark [id="logo-glyphs-2"] {
-  fill: $baseB6;
-}
-
-.bg-light [id="logo-glyphs-2"] {
-  fill: adjust-color($baseD7, $lightness: 5%);
-}
+// .bg-light [id="logo-glyphs-2"] {
+//   fill: adjust-color($baseD7, $lightness: 5%);
+// }
 
 [class*="bg-"] [id*="-inner"],
 [class*="bg-"] [id*="-gt-"] path {
@@ -366,17 +365,16 @@ nav ul {
   }
 }
 
-.bg-light .nav-themes_list a {
-  background-color: $baseC1;
-  border-top-color: adjust-color($baseC1, $lightness: 2.5%);
-  border-bottom-color: $baseC0;
-  color: $baseB7;
-
-  &:hover {
-    background-color: adjust-color($baseC1, $lightness: -2.5%);
-  }
-
-}
+// .bg-light .nav-themes_list a {
+//   background-color: $baseC1;
+//   border-top-color: adjust-color($baseC1, $lightness: 2.5%);
+//   border-bottom-color: $baseC0;
+//   color: $baseB7;
+//
+//   &:hover {
+//     background-color: adjust-color($baseC1, $lightness: -2.5%);
+//   }
+// }
 
 .nav_list .current a {
   pointer-events: none;
@@ -395,14 +393,12 @@ nav ul {
   border-bottom-color: adjust-color($baseA0, $lightness: 2.5%);
 }
 
-.bg-light .nav-themes_list .current a {
-  background-color: $baseC7;
-  color: $baseB3;
-  // border-top-color: $baseC4;
-  // border-bottom-color: $baseC1;
-  border-top-color: adjust-color($baseA7, $lightness: -2.5%);
-  border-bottom-color: adjust-color($baseA7, $lightness: 2.5%);
-}
+// .bg-light .nav-themes_list .current a {
+//   background-color: $baseC7;
+//   color: $baseB3;
+//   border-top-color: adjust-color($baseA7, $lightness: -2.5%);
+//   border-bottom-color: adjust-color($baseA7, $lightness: 2.5%);
+// }
 
 .nav_toggle {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='rgb(255,255,255)'%3E%3Crect x='12' y='14' width='16' height='2'/%3E%3Crect x='12' y='20' width='16' height='2'/%3E%3Crect x='12' y='26' width='16' height='2'/%3E%3C/svg%3E");
@@ -456,11 +452,11 @@ nav ul {
   }
 }
 
-.bg-light .nav_toggle-themes {
-  @media(min-width: 640px) {
-    background-color: adjust-color($baseC0, $lightness: -5%);
-  }
-}
+// .bg-light .nav_toggle-themes {
+//   @media(min-width: 640px) {
+//     background-color: adjust-color($baseC0, $lightness: -5%);
+//   }
+// }
 
 // end menu
 
@@ -498,9 +494,9 @@ nav ul {
   transition: all .3s;
 }
 
-.bg-light .nav-themes {
-  background-color: $baseC1;
-}
+// .bg-light .nav-themes {
+//   background-color: $baseC1;
+// }
 
 .bg-dark .nav-themes {
   background-color: $baseA1;
@@ -615,10 +611,10 @@ nav ul {
   color: $baseA1;
 }
 
-.bg-light .demo-tiles-header-text,
-.bg-light .h3 {
-  color: $baseA2;
-}
+// .bg-light .demo-tiles-header-text,
+// .bg-light .h3 {
+//   color: $baseA2;
+// }
 
 .demo-tiles-header-text b {
   font-weight: normal;
@@ -637,9 +633,9 @@ nav ul {
   word-spacing: -.5px;
 }
 
-.bg-light .demo-tiles-header-text .number-shades {
-  color: $baseC0;
-}
+// .bg-light .demo-tiles-header-text .number-shades {
+//   color: $baseC0;
+// }
 
 .demo-tiles-header .button {
   float: right;
@@ -711,32 +707,31 @@ h3 {
 }
 
 // light bg
-.bg-light ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba($baseA7,0.3);
-  border-radius: 2px;
-  background-color: adjust-color($baseA7, $lightness: 2.5%);
-  // background-color: $baseB7;
-}
+// .bg-light ::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 6px rgba($baseA7,0.3);
+//   border-radius: 2px;
+//   background-color: adjust-color($baseA7, $lightness: 2.5%);
+// }
 
-.bg-light ::-webkit-scrollbar {
-  width: .75em;
-  height: .75em;
-  background-color: adjust-color($baseA7, $lightness: -5%);
-}
+// .bg-light ::-webkit-scrollbar {
+//   width: .75em;
+//   height: .75em;
+//   background-color: adjust-color($baseA7, $lightness: -5%);
+// }
 
-.bg-light ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  box-shadow: inset 0 0 6px rgba($baseA3,.3);
-  background-color: adjust-color($baseA7, $lightness: -2.5%);
-}
+// .bg-light ::-webkit-scrollbar-thumb {
+//   border-radius: 2px;
+//   box-shadow: inset 0 0 6px rgba($baseA3,.3);
+//   background-color: adjust-color($baseA7, $lightness: -2.5%);
+// }
 
-.bg-light ::-webkit-scrollbar-thumb:window-inactive {
-  background-color: $baseA4;
-}
+// .bg-light ::-webkit-scrollbar-thumb:window-inactive {
+//   background-color: $baseA4;
+// }
 
-.bg-light ::-webkit-scrollbar-corner {
-  background-color: transparent;
-}
+// .bg-light ::-webkit-scrollbar-corner {
+//   background-color: transparent;
+// }
 
 button {
   -webkit-appearance: none;

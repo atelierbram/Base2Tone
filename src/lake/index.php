@@ -1,5 +1,5 @@
 <?php
-$title = 'Lake Dark';
+$title = 'Lake, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'lake';
 $id = 'lake-dark';

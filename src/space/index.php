@@ -1,5 +1,5 @@
 <?php
-$title = 'Space Dark';
+$title = 'Space, Base2Tone Colorscheme';
 $type = 'page';
 $theme = 'space';
 $id = 'space-dark';

@@ -1,5 +1,5 @@
 <?php
-$title = 'Cave Dark';
+$title = 'Cave, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'cave';
 $id = 'cave-dark';

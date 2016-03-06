@@ -1,5 +1,5 @@
 <?php
-$title = 'Morning Dark';
+$title = 'Morning, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'morning';
 $id = 'morning-dark';

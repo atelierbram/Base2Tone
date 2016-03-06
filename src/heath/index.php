@@ -1,5 +1,5 @@
 <?php
-$title = 'Heath Dark';
+$title = 'Heath, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'heath';
 $id = 'heath-dark';

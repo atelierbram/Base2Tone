@@ -37,4 +37,4 @@
   $replace = array(">","<");
   return preg_replace($search, $replace, $buffer);
 }
-?>  
+?>

@@ -1,5 +1,5 @@
 <?php
-$title = 'Pool Dark';
+$title = 'Pool, Base2Tone Colorscheme';
 $type = 'page';
 $theme = 'pool';
 $id = 'pool-dark';

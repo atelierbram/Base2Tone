@@ -1,9 +1,9 @@
 <?php
-$title = 'Space Dark';
+$title = 'Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'space';
 $id = 'space-dark';
-$description = 'Base2Tone colorscheme';
+$description = 'Base2Tone Colorschemes, 2 base hues - 32 variations > 1 theme';
 $bg = 'dark';
 $swaptext1 = 'Coming Soon';
 $swaptext2 = 'Base2Tone';

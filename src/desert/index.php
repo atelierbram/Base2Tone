@@ -1,5 +1,5 @@
 <?php
-$title = 'Desert Dark';
+$title = 'Desert, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'desert';
 $id = 'desert-dark';

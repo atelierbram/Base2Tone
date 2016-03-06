@@ -1,5 +1,5 @@
 <?php
-$title = 'Forest Dark';
+$title = 'Forest, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'forest';
 $id = 'forest-dark';

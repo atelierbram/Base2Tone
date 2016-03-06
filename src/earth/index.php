@@ -1,5 +1,5 @@
 <?php
-$title = 'Earth Dark';
+$title = 'Earth, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'earth';
 $id = 'earth-dark';
