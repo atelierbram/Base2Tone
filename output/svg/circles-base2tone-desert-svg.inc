@@ -1,4 +1,4 @@
-<?php ?><section class="svg-circles"><h3 class="h3">Palettes for Vector Images</h3><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 96" class="">
+<?php ob_start('compress_circles'); ?><section class="svg-circles"><h3 class="h3">Palettes for Vector Images</h3><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 96" class="">
 
 <g class="circle-1">
   <g class="circle_a7"><circle fill="#bbb6a5" cx="57" cy="48" r="40"/></g>
@@ -44,5 +44,10 @@
   <g class="circle_d0"><circle fill="#bc672f" cx="327" cy="48" r="5"/></g>
 </g>
 </svg>
-</section><?php ?>
+</section><?php ob_end_flush(); function compress_circles($buffer) {
+  $search = array("/>[[:space:]]+/", "/[[:space:]]+</");
+  $replace = array(">","<");
+  return preg_replace($search, $replace, $buffer);
+}
+?>
 

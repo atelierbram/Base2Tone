@@ -1,4 +1,4 @@
-<?php ?><section class="tables">
+<?php ob_start('compress_table'); ?><section class="tables">
 <h3 class="h3">Color Hex Values Table</h3>
 <table>
 <thead>
@@ -64,6 +64,10 @@
     <td>#fcc440</td>
     </tr>
   </tbody>
-</table>
-<?php ?>
+</table><?php ob_end_flush(); function compress_table($buffer) {
+  $search = array("/>[[:space:]]+/", "/[[:space:]]+</");
+  $replace = array(">","<");
+  return preg_replace($search, $replace, $buffer);
+}
+?>
 
