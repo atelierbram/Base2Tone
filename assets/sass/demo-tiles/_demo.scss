@@ -89,8 +89,10 @@ section {
 }
 
 // override inital hiding in head styles
-section,
-h3 {
+nav,
+.container-flex,
+h3,
+section {
   opacity: 1;
 }
 

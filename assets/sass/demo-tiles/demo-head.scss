@@ -27,7 +27,7 @@
 }
 
 .header p {
-  font-size: 1em; 
+  font-size: 1em;
   margin: 0;
   letter-spacing: 1px;
   word-spacing: -1px;
@@ -79,10 +79,6 @@ svg {
   fill: currentColor;
 }
 
-[class*="bg-"] [id="logo-glyphs-gt-1"] path,
-[class*="bg-"] [id*="-inner"] path {
-  opacity: 0;
-}
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -103,6 +99,10 @@ svg {
   overflow: hidden;
 }
 
+[class*="bg-"] [id="logo-glyphs-gt-1"] path,
+[class*="bg-"] [id*="-inner"] path,
+nav,
+.container-flex,
 h3,
 section {
   opacity: 0;
