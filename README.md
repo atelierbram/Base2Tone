@@ -1,5 +1,6 @@
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/svg/logo_896x176.svg "Logo Base2Tone")
-<h1 style="display:none">Base2Tone</h1>
+
+# Base2Tone
 2 base hues - 32 variations > 1 theme
 
 ## Color Scheming
