@@ -6,7 +6,7 @@
 ## Color Scheming
 Make colorschemes from two base colors; for example color variables in webdevelopment; as a foundation for the colors of your website.
 
-![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_810x530.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
+![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 Screenshot Code Highlighting of Base2Tone Pool theme for Prism
 
 Base2Tone is based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a> for Atom.

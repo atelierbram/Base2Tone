@@ -15,7 +15,7 @@
 </span><span class="token punctuation">}</span><span class="token lf">
 </span><span class="token selector">small </span><span class="token punctuation">{</span><span class="token lf">
 </span>  <a class="token property" href="http://docs.webplatform.org/wiki/css/properties/font-size" target="_blank">font-size</a><span class="token punctuation">:</span> <span class="token number">80%</span> <span class="token important">!important</span><span class="token punctuation">;</span><span class="token lf">
-    </span><span class="token punctuation">}</span></code></pre>
+</span><span class="token punctuation">}</span></code></pre>
   </div>
 
   <div class="prism-light w-1v2">
@@ -31,7 +31,7 @@
 </span><span class="token punctuation">}</span><span class="token lf">
 </span><span class="token selector">small </span><span class="token punctuation">{</span><span class="token lf">
 </span>  <a class="token property" href="http://docs.webplatform.org/wiki/css/properties/font-size" target="_blank">font-size</a><span class="token punctuation">:</span> <span class="token number">80%</span> <span class="token important">!important</span><span class="token punctuation">;</span><span class="token lf">
-    </span><span class="token punctuation">}</span></code></pre>
+</span><span class="token punctuation">}</span></code></pre>
   </div>
 </div>
 </section>
