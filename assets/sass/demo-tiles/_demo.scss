@@ -40,7 +40,8 @@
 // https://github.com/RedHatBrand/overpass
 @font-face {
   font-family: 'Overpass';
-  src: url('../../fonts/overpass/Overpass-Light.woff') format('woff'),
+  src: url('../../fonts/overpass/Overpass-Light.woff2') format('woff2'),
+  url('../../fonts/overpass/Overpass-Light.woff') format('woff'),
   url('../../fonts/overpass/Overpass-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
@@ -136,9 +137,17 @@ h2, h3 {
 // .bg-light .col h3 {
 //   color: $baseA5;
 // }
-
 a {
   text-decoration: none;
+}
+
+.content a {
+  color: $baseD3;
+ &:hover {
+   color: $baseD2;
+   box-shadow: 0 4px 0 $baseD7;
+  // color: adjust-color($baseD3, $lightness: 5%);
+ }
 }
 
 .container {
@@ -471,8 +480,14 @@ nav ul {
   }
 }
 
+.row,
 .content {
-  padding: 0 3em 5em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.content {
+  padding-bottom: 5em;
   transition: all .3s;
 
   @media(min-width: 640px) {
@@ -551,6 +566,32 @@ nav ul {
   padding: .5em 1em;
 }
 // end flex layout
+
+// typography
+.content p {
+  // color: $baseB7;
+  max-width: 35em;
+  padding: .5em 0;
+}
+blockquote {
+}
+
+.quote p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em 2em;
+  background-color: $baseB7;
+  color: $baseA3;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: adjust-color($baseB7, $lightness: 2.5%);
+  border-right-color: adjust-color($baseB7, $lightness: -2.5%);
+  border-bottom-color: $baseB6;
+  border-left-width: 1em;
+  border-left-color: $baseB5;
+}
+
+// end typography
 
 .demo-tiles {
   overflow: hidden;
@@ -653,7 +694,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  margin: 1em 0 0 .35em;
+  margin: 1em 0 0 0;
   letter-spacing: -1px;
   word-spacing: 1px;
 }
@@ -673,11 +714,11 @@ h3 {
   pointer-events: none;
 }
 
-.col pre[class*="language-"] {
-  max-height: 300px;
-  border-radius: 5px;
-  line-height: 1.4;
-}
+// .col pre[class*="language-"] {
+//   max-height: 300px;
+//   border-radius: 5px;
+//   line-height: 1.4;
+// }
 
 // webkit custom scrollbars for dark background (... mostly for horizontal on smaller screens)
 // https://css-tricks.com/custom-scrollbars-in-webkit/
@@ -735,15 +776,16 @@ h3 {
 //   background-color: transparent;
 // }
 
+
 button {
   -webkit-appearance: none;
   overflow: visible;
   border-radius: 4px;
   background-clip: padding-box;
-  background-color: $baseD2;
   border: 1px solid;
   border-color: $baseD4 $baseD2 $baseD1;
   cursor: pointer;
+ background-color: $baseD2;
   color: $baseB7;
   display: inline-block;
   outline: 0;
@@ -834,6 +876,7 @@ tr:nth-of-type(even) {
   background: adjust-color($baseA7, $lightness: 5%);
 }
 
+
 //table
 table tbody tr:nth-of-type(1) td:nth-child(0n+2),
 table tbody tr:nth-of-type(1) td:nth-child(0n+3),
@@ -856,10 +899,32 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   color: #fff;
 }
 
-@media (min-width:750px) {
+.row {
+  margin-right: -3em;
+  margin-left: -3em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
 
-  .col pre[class*="language-"] {
-    padding: 2em 3em;
+.row-intro {
+  background-color: $baseC7;
+  column-width: 490px;
+  column-gap: 3em;
+}
+
+// http://rscss.io/
+// helpers
+._mbs {
+  margin-bottom: .5rem !important;
+}
+// ._mtl {
+//   margin-top: 1.5rem !important;
+// }
+// end helpers
+@media (min-width:750px) {
+   pre[class*="language-"],
+  .code-samples pre[class*="language-"] {
+    padding: 1.5em 2em;
     font-size: 16px;
   }
 
@@ -876,7 +941,7 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   }
 
   p {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 
   button {
@@ -884,3 +949,4 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   }
 
 }
+

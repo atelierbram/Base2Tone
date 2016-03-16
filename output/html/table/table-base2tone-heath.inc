@@ -1,5 +1,5 @@
 <?php ob_start('compress_table'); ?><section class="tables">
-<h3 class="h3">Color Hex Values Table</h3>
+<h3 class="h3 _mbs">Color Hex Values Table</h3>
 <table>
 <thead>
   <tr>

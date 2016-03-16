@@ -4,16 +4,16 @@
 2 base hues - 32 variations > 1 theme
 
 ## Color Scheming
-Make colorschemes from two base colors; for example color variables in webdevelopment; as a foundation for the colors of your website.
+Create colorschemes from two base colors.
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
-Screenshot Code Highlighting of Base2Tone Pool theme for Prism
+Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
 
-Base2Tone is based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a> for Atom.
+Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 
 > It <strong>tones down</strong> less important parts (like punctuation and brackets) and highlights only the <strong>important</strong> ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.
 
-Generate syntax-highlighting colorschemes with color variations from 2 colors with Base2Tone (TODO: _for many applications_):
+Use these colorschemes to generate syntax-highlighting themes (TODO: _for many applications_):
 
 [Prism](https://github.com/atelierbram/Base2Tone-prism)
 

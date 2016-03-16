@@ -14,6 +14,7 @@ include '../inc/header.inc';
 <div class="container-flex" id="main">
 <?php
   include '../inc/nav-themes.inc';
+  include '../inc/intro.inc';
   include '../inc/demo-tiles-header_index.inc';
   include '../inc/demo-tiles.inc';
   include '../inc/code-samples.inc';
