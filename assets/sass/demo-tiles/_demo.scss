@@ -85,6 +85,8 @@ body {
   box-sizing: border-box;
 }
 
+
+
 section {
   padding-bottom: 5em;
 }
@@ -300,21 +302,24 @@ svg {
 //   fill: adjust-color($baseD7, $lightness: 5%);
 // }
 
+[class*="bg-"] [id*="-shadow"] path,
 [class*="bg-"] [id*="-inner"],
 [class*="bg-"] [id*="-gt-"] path {
   fill: currentColor;
 }
 
+[class*="bg-"] [id*="-shadow"] path,
 [class*="bg-"] [id="logo-glyphs-gt-1"] path,
 [class*="bg-"] [id*="-inner"] path {
   opacity: 0;
 }
 
+.domready [id*="-shadow"] path,
 .domready [id*="-inner"] path,
 .domready [id*="-gt-"] path {
   animation: glyph-opacity 3s infinite linear;
 }
-
+.domready [id="glyphs-base-shadow"] path,
 .domready [id="logo-glyphs-tone-inner"] path,
 .domready [id="logo-glyphs-gt-1"] path {
   animation-delay: 1.5s;
@@ -694,9 +699,18 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  margin: 1em 0 0 0;
+  // margin: 1em 0 0 0;
   letter-spacing: -1px;
   word-spacing: 1px;
+}
+
+.demo-tiles-header,
+section h3 {
+  margin: 1em 0 0 0;
+}
+
+.row-intro h3 {
+  margin: .25em 0 0 0;
 }
 
 .block-list {
@@ -912,6 +926,9 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   column-gap: 3em;
 }
 
+.section-text {
+  break-inside: avoid-column;
+}
 // http://rscss.io/
 // helpers
 ._mbs {
