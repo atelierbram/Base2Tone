@@ -7,6 +7,7 @@
 Create colorschemes from two base colors.
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
+<br/>
 Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
 
 Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
