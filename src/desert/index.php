@@ -2,6 +2,7 @@
 $title = 'Desert, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'desert';
+$themeId = $theme;
 $id = 'desert-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

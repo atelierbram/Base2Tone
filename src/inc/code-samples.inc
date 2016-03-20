@@ -3,7 +3,7 @@
 <h3 class="h3">Code Syntax Highlighting</h3>
 <div class="cf">
   <div class="prism-dark w-1v2">
-<h4 class="h4">Dark Variation</h4>
+<h4 class="h4">Dark Variation (Space theme)</h4>
     <pre class="language-css"><code class="language-css" data-language="css"><span class="token comment" spellcheck="true">/* comment */</span><span class="token lf">
 </span><span class="token selector">h1 </span><span class="token punctuation">{</span><span class="token lf">
 </span>  <a class="token property" href="http://docs.webplatform.org/wiki/css/properties/font-size" target="_blank">font-size</a><span class="token punctuation">:</span> <span class="token number">2</span>em<span class="token punctuation">;</span><span class="token lf">
@@ -19,7 +19,7 @@
   </div>
 
   <div class="prism-light w-1v2">
-<h4 class="h4">Light Variation</h4>
+<h4 class="h4">Light Variation (Space theme)</h4>
     <pre class="language-css"><code class="language-css" data-language="css"><span class="token comment" spellcheck="true">/* comment */</span><span class="token lf">
 </span><span class="token selector">h1 </span><span class="token punctuation">{</span><span class="token lf">
 </span>  <a class="token property" href="http://docs.webplatform.org/wiki/css/properties/font-size" target="_blank">font-size</a><span class="token punctuation">:</span> <span class="token number">2</span>em<span class="token punctuation">;</span><span class="token lf">

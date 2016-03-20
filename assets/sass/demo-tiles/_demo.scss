@@ -47,6 +47,29 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+
+//Webfont: Overpass-Reg
+@font-face {
+    font-family: 'Overpass';
+    src: url('../../fonts/overpass/Overpass-Regular.woff2') format('woff2'),
+         url('../../fonts/overpass/Overpass-Regular.woff') format('woff'),
+         url('../../fonts/overpass/Overpass-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+// Webfont: Overpass-Bold
+// @font-face {
+//     font-family: 'Overpass';
+//     src: url('../../fonts/overpass/Overpass-Bold.woff2') format('woff2'),
+//          url('../../fonts/overpass/Overpass-Bold.woff') format('woff'),
+//          url('../../fonts/overpass/Overpass-Bold.ttf') format('truetype');
+//     font-style: normal;
+//     font-weight: 700;
+//     text-rendering: optimizeLegibility;
+// }
+
 // generic demo styles
 *, *::before, *::after {
   margin: 0;
@@ -80,12 +103,9 @@ body {
 body {
   margin: 0;
   font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
-  background: inherit;
   min-height: 100%;
   box-sizing: border-box;
 }
-
-
 
 section {
   padding-bottom: 5em;
@@ -99,17 +119,22 @@ section {
   opacity: 1;
 }
 
+sup {
+  font-size: .875em;
+}
+
 .wf-active body,
 .wf-active button {
   font-family: Overpass, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   display: inline-block;
   margin: 0;
   font-family: AvenirNextCondensed-DemiBold, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
   font-weight: normal;
 }
+
 h4 {
   font-family: AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
@@ -118,9 +143,9 @@ h4 {
   margin-left: 1rem;
 }
 
-h2, h3 {
-  padding: 1rem 0 0;
-}
+// h2, h3 {
+//   padding: 1rem 0 0;
+// }
 
 .wf-active h1,
 .wf-active h2,
@@ -130,6 +155,10 @@ h2, h3 {
 
 .wf-active h4 {
   font-family: Overpass, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+}
+
+.wf-active strong {
+  font-weight: 600;
 }
 
 .bg-dark .col h3 {
@@ -144,14 +173,22 @@ a {
 }
 
 .content a {
-  color: $baseD3;
+  color: $baseD2;
  &:hover {
-   color: $baseD2;
+   color: $baseD1;
    box-shadow: 0 4px 0 $baseD7;
   // color: adjust-color($baseD3, $lightness: 5%);
  }
 }
-
+.note a {
+  color: $baseD1;
+ &:hover {
+   color: $baseD5;
+   box-shadow: 0 4px 0 $baseD6;
+  // color: adjust-color($baseD3, $lightness: 5%);
+ }
+}
+ 
 .container {
   max-width: 100%;
   overflow: auto;
@@ -487,8 +524,13 @@ nav ul {
 
 .row,
 .content {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  @media(min-width: 641px) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 }
 
 .content {
@@ -699,7 +741,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  // margin: 1em 0 0 0;
   letter-spacing: -1px;
   word-spacing: 1px;
 }
@@ -710,7 +751,8 @@ section h3 {
 }
 
 .row-intro h3 {
-  margin: .25em 0 0 0;
+  margin: 0;
+  // margin: .25em 0 0 0;
 }
 
 .block-list {
@@ -728,6 +770,10 @@ section h3 {
   pointer-events: none;
 }
 
+.language-bash {
+  background-color: $baseA0;
+  color: $baseC7;
+}
 // .col pre[class*="language-"] {
 //   max-height: 300px;
 //   border-radius: 5px;
@@ -799,7 +845,7 @@ button {
   border: 1px solid;
   border-color: $baseD4 $baseD2 $baseD1;
   cursor: pointer;
- background-color: $baseD2;
+  background-color: $baseD2;
   color: $baseB7;
   display: inline-block;
   outline: 0;
@@ -914,10 +960,15 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 }
 
 .row {
-  margin-right: -3em;
-  margin-left: -3em;
   padding-top: 3em;
   padding-bottom: 4em;
+  margin-right: -1.5em;
+  margin-left: -1.5em;
+
+  @media(min-width: 641px) {
+    margin-right: -3em;
+    margin-left: -3em;
+  }
 }
 
 .row-intro {
@@ -926,20 +977,58 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   column-gap: 3em;
 }
 
-.section-text {
-  break-inside: avoid-column;
+.intro {
+  font-size: 1.25em;
+  color: $baseB0;
+
+  @media(min-width: 641px) {
+    font-size: 1.5em;
+  }
+
+}
+
+.dropcap {
+  float: left;
+  line-height: 1;
+  text-indent: -1em;
+  overflow: hidden;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 100'%3E%3Cpath fill='rgb(118,118,244)' d='M0,0h33.142c5.808,0,10.69,0.763,14.643,2.286c3.95,1.524,7.094,3.5,9.429,5.929c2.332,2.429,4,5.214,4.999,8.357 c1.001,3.143,1.501,6.335,1.501,9.571c0,5.143-1.429,9.5-4.286,13.071c-2.857,3.572-6.667,6.264-11.429,8.072 C53.428,48.621,58,51.357,61.714,55.5c3.714,4.144,5.571,9.643,5.571,16.5c0,3.429-0.5,6.811-1.5,10.143 c-1,3.335-2.739,6.311-5.215,8.929c-2.478,2.62-5.763,4.764-9.857,6.429c-4.096,1.668-9.191,2.5-15.285,2.5H0V0z'/%3E%3C/svg%3E") center no-repeat;
+  // outline: 1px dotted salmon;
+
+  width: 55px;
+  height: 82px;
+
+  @media(min-width: 641px) {
+    width: 68px;
+    height: 100px;
+  }
+}
+
+.wf-active .intro {
+  font-weight: 600;
+}
+
+.section-text,
+.quote p {
+  // break-inside: avoid-column;
+ //  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+ page-break-inside: avoid; // Firefox 
+ break-inside: avoid; // IE 10+
 }
 // http://rscss.io/
 // helpers
 ._mbs {
   margin-bottom: .5rem !important;
 }
-// ._mtl {
-//   margin-top: 1.5rem !important;
-// }
+._mbl {
+  margin-bottom: 1.5rem !important;
+}
+.note {
+  background-color: $baseC4;
+}
 // end helpers
 @media (min-width:750px) {
-   pre[class*="language-"],
+  pre[class*="language-"],
   .code-samples pre[class*="language-"] {
     padding: 1.5em 2em;
     font-size: 16px;

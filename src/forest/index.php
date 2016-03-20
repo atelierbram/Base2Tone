@@ -2,6 +2,7 @@
 $title = 'Forest, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'forest';
+$themeId = $theme;
 $id = 'forest-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

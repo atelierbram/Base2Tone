@@ -2,6 +2,7 @@
 $title = 'Earth, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'earth';
+$themeId = $theme;
 $id = 'earth-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

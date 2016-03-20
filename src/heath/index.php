@@ -2,6 +2,7 @@
 $title = 'Heath, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'heath';
+$themeId = $theme;
 $id = 'heath-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

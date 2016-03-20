@@ -1,7 +1,8 @@
 <?php
 $title = 'Base2Tone Colorschemes';
-$type = 'page';
+$type = 'index';
 $theme = 'space';
+$themeId = 'space-index';
 $id = 'space-dark';
 $description = 'Base2Tone Colorschemes, 2 base hues - 32 variations > 1 theme';
 $bg = 'dark';

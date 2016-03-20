@@ -2,6 +2,7 @@
 $title = 'Space, Base2Tone Colorscheme';
 $type = 'page';
 $theme = 'space';
+$themeId = $theme;
 $id = 'space-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

@@ -2,6 +2,7 @@
 $title = 'Evening, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'evening';
+$themeId = $theme;
 $id = 'evening-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

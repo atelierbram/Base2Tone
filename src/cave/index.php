@@ -2,6 +2,7 @@
 $title = 'Cave, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'cave';
+$themeId = $theme;
 $id = 'cave-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

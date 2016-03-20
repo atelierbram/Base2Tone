@@ -2,6 +2,7 @@
 $title = 'Pool, Base2Tone Colorscheme';
 $type = 'page';
 $theme = 'pool';
+$themeId = $theme;
 $id = 'pool-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

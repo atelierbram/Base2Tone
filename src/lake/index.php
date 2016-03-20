@@ -2,6 +2,7 @@
 $title = 'Lake, Base2Tone Colorschemes';
 $type = 'page';
 $theme = 'lake';
+$themeId = $theme;
 $id = 'lake-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';

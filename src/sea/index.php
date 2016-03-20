@@ -2,6 +2,7 @@
 $title = 'Sea, Base2Tone Colorscheme';
 $type = 'page';
 $theme = 'sea';
+$themeId = $theme;
 $id = 'sea-dark';
 $description = 'Base2Tone colorscheme';
 $bg = 'dark';
