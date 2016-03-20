@@ -581,6 +581,13 @@ nav ul {
   }
 }
 
+.nav-themes-open ~ .content {
+
+  @media(min-width: 640px) and (max-width: 927px) {
+    padding-top: 3em;
+  }
+}
+
 .nav-themes {
   flex-grow: 1;
   transition: all .3s;
