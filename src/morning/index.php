@@ -16,7 +16,7 @@ include '../inc/header.inc';
   include '../inc/demo-tiles-header.inc';
   include '../inc/demo-tiles.inc';
   include '../inc/code-samples.inc';
-  include '../../output/svg/circles-base2tone-morning-svg.inc';
+  include '../../output/svg/circles-base2tone-morning.svg.inc';
   include '../../output/html/table/table-base2tone-morning.inc';
 ?>
   </div> <!-- /.content #content -->

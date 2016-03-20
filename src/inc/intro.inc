@@ -21,7 +21,7 @@
 
   </div>
   <div class="row note">
-     <p>Use these colorschemes to generate syntax-highlighting themes (TODO: _for many applications_):</p>
+     <p>Use these colorschemes to generate syntax-highlighting themes <small>(TODO: for many applications)</small>:</p>
     <ul>
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
     </ul>

@@ -21,14 +21,14 @@ pre[class*="language-"] {
 
 .prism-dark code[class*="language-"],
 .prism-dark pre[class*="language-"] {
-  background: #{{ base["A0"]["hex"] }};
-  color: #{{ base["B3"]["hex"] }};
+  background: #<%- base["A0"]["hex"] %>;
+  color: #<%- base["B3"]["hex"] %>;
 }
 
 .prism-light code[class*="language-"],
 .prism-light pre[class*="language-"] {
-  background: #{{ base["C7"]["hex"] }};
-  color: #{{ base["B4"]["hex"] }};
+  background: #<%- base["C7"]["hex"] %>;
+  color: #<%- base["B4"]["hex"] %>;
 }
 
 .prism-dark pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -36,7 +36,7 @@ pre[class*="language-"] {
 .prism-dark pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-dark code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #{{ base["B0"]["hex"] }};
+  background: #<%- base["B0"]["hex"] %>;
 }
 
 .prism-light pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -44,7 +44,7 @@ pre[class*="language-"] {
 .prism-light pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-light code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #{{ base["C7"]["hex"] }};
+  background: #<%- base["C7"]["hex"] %>;
 }
 
 /* Code blocks */
@@ -65,7 +65,7 @@ pre[class*="language-"] {
 .prism-dark .token.doctype,
 .prism-dark .token.cdata,
 .prism-dark .token.punctuation {
-  color: #{{ base["A3"]["hex"] }};
+  color: #<%- base["A3"]["hex"] %>;
 }
 
 .prism-light .token.comment,
@@ -73,7 +73,7 @@ pre[class*="language-"] {
 .prism-light .token.doctype,
 .prism-light .token.cdata,
 .prism-light .token.punctuation {
-  color: #{{ base["C4"]["hex"] }};
+  color: #<%- base["C4"]["hex"] %>;
 }
 
 .token.namespace {
@@ -83,45 +83,45 @@ pre[class*="language-"] {
 .prism-dark .token.tag,
 .prism-dark .token.operator,
 .prism-dark .token.number {
-  color: #{{ base["D2"]["hex"] }};
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .prism-light .token.tag,
 .prism-light .token.operator,
 .prism-light .token.number {
-  color: #{{ base["B0"]["hex"] }};
+  color: #<%- base["B0"]["hex"] %>;
 }
 
 .prism-dark .token.property,
 .prism-dark .token.function {
-  color: #{{ base["B3"]["hex"] }};
+  color: #<%- base["B3"]["hex"] %>;
 }
 
 .prism-light .token.property,
 .prism-light .token.function {
-  color: #{{ base["D4"]["hex"] }};
+  color: #<%- base["D4"]["hex"] %>;
 }
 
 .prism-dark .token.tag-id,
 .prism-dark .token.selector,
 .prism-dark .token.atrule-id {
-  color: #{{ base["B7"]["hex"] }};
+  color: #<%- base["B7"]["hex"] %>;
 }
 
 .prism-light .token.tag-id,
 .prism-light .token.selector,
 .prism-light .token.atrule-id {
-  color: #{{ base["D0"]["hex"] }};
+  color: #<%- base["D0"]["hex"] %>;
 }
 
 .prism-dark code.language-javascript,
 .prism-dark .token.attr-name {
-  color: #{{ base["B5"]["hex"] }};
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .prism-light code.language-javascript,
 .prism-light .token.attr-name {
-  color: #{{ base["D2"]["hex"] }};
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .prism-dark code.language-css,
@@ -141,7 +141,7 @@ pre[class*="language-"] {
 .prism-dark .token.statement,
 .prism-dark .token.regex,
 .prism-dark .token.atrule {
-  color: #{{ base["D7"]["hex"] }};
+  color: #<%- base["D7"]["hex"] %>;
 }
 
 .prism-light code.language-css,
@@ -161,17 +161,17 @@ pre[class*="language-"] {
 .prism-light .token.statement,
 .prism-light .token.regex,
 .prism-light .token.atrule {
-  color: #{{ base["B4"]["hex"] }};
+  color: #<%- base["B4"]["hex"] %>;
 }
 
 .prism-dark .token.placeholder,
 .prism-dark .token.variable {
-  color: #{{ base["D7"]["hex"] }};
+  color: #<%- base["D7"]["hex"] %>;
 }
 
 .prism-light .token.placeholder,
 .prism-light .token.variable {
-  color: #{{ base["B5"]["hex"] }};
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .token.deleted {
@@ -183,11 +183,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #{{ base["B7"]["hex"] }};
+  border-bottom: 1px dotted #<%- base["B7"]["hex"] %>;
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #{{ base["D0"]["hex"] }};
+  border-bottom: 1px dotted #<%- base["D0"]["hex"] %>;
 }
 
 .token.italic {
@@ -200,11 +200,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.important {
-  color: #{{ base["B5"]["hex"] }};
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .prism-light .token.important {
-  color: #{{ base["D2"]["hex"] }};
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .token.entity {
@@ -216,9 +216,9 @@ pre > code.highlight {
 }
 
 .prism-dark pre > code.highlight {
-  outline: .4em solid #{{ base["B2"]["hex"] }};
+  outline: .4em solid #<%- base["B2"]["hex"] %>;
 }
 
 .prism-light pre > code.highlight {
-  outline: .4em solid #{{ base["D2"]["hex"] }};
+  outline: .4em solid #<%- base["D2"]["hex"] %>;
 }
