@@ -119,6 +119,10 @@ section {
   opacity: 1;
 }
 
+ul {
+  list-style: none;
+}
+
 sup,
 small {
   font-size: .875em;
@@ -167,6 +171,10 @@ h4 {
   color: $baseA1;
 }
 
+.note h3 {
+  color: $baseC0;
+}
+
 // .bg-light .col h3 {
 //   color: $baseA5;
 // }
@@ -183,10 +191,10 @@ a {
  }
 }
 .note a {
-  color: $baseD1;
+  color: adjust-color($baseD1, $saturation: 15%);
  &:hover {
-   color: $baseD5;
-   box-shadow: 0 4px 0 $baseD6;
+   color: $baseD3;
+   box-shadow: 0 4px 0 $baseD4;
   // color: adjust-color($baseD3, $lightness: 5%);
  }
 }
@@ -402,7 +410,6 @@ svg {
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .js .nav-closed {
@@ -804,7 +811,6 @@ section h3 {
 }
 
 .block-list li {
-  list-style: none;
   padding: .5em 1em;
 }
 
@@ -1067,12 +1073,50 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 ._mbs {
   margin-bottom: .5rem !important;
 }
+._mtm {
+  margin-top: 1rem !important;
+}
+._mtl {
+  margin-top: 1.5rem !important;
+}
 ._mbl {
   margin-bottom: 1.5rem !important;
 }
+
+.fs-larger {
+  font-size: 1.25em;
+}
+
+// .fw-bold {
+//   font-weight: 600;
+// }
+
 .note {
   background-color: $baseC5;
 }
+
+// lists
+.list-bullets {
+  padding: 0 .5em;
+  margin: .5em 0 .5em -.45rem;
+}
+
+.list-bullets li {
+  position: relative;
+  margin-left: -.75em;
+  padding-left: .75em;
+}
+
+.list-bullets li::before {
+  content: " \B7"; /* middot in unicode -> &middot; */
+  font-size: 1.25em;
+  color: $baseC1;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 3px;
+}
+
 // end helpers
 @media (min-width:750px) {
   pre[class*="language-"],

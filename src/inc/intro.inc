@@ -9,7 +9,11 @@
     <div class="section-text">
       <h3>Dependencies</h3>
       <p>Colorschemes are generated with the help of <a href="https://github.com/base16-builder/base16-builder">Base16 Builder</a></p>
-      <p class="_mbl">Some customized commands from the latest fork of Base16 Builder can be found here in executable bash scripts (<code>cli/io.sh</code>). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool <a href="https://github.com/base16-builder/base16-builder">on the Github repo for Base16 Builder</a>, and the many ways to use it from the command-line.</p>
+
+<p>An example command to generate a scss Sass file for Prism, from the template for prism-scss in the "Evening" colorscheme:</p>
+<pre class="language-bash"><code class="language-bash" data-language="bash">$ base16-builder --scheme db/schemes/base2tone-evening.yml --template db/templates/scss-prism/prism.scss.ejs &gt; output/prism/_prism-base2tone-evening.scss</code></pre>
+
+      <p class="_mtl _mbl">Some customized commands from the latest fork of Base16 Builder can be found here in executable bash scripts (<code>cli/io.sh</code>). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool <a href="https://github.com/base16-builder/base16-builder">on the Github repo for Base16 Builder</a>, and the many ways to use it from the command-line.</p>
     </div>
 
     <div class="section-text">
@@ -19,11 +23,15 @@
       <pre class="language-bash"><code class="language-bash" data-language="bash">$ npm install --global base16-builder</code></pre>
     </div>
 
+    <p id="footnote-1" class="_mtl">1. Installing from NPM means you will also need to have Node.js installed; instructions can be found <a href="https://docs.npmjs.com/getting-started/installing-node">here</a>.</p>
   </div>
   <div class="row note">
-     <p>Use these colorschemes to generate syntax-highlighting themes <small>(TODO: for many applications)</small>:</p>
-    <ul>
+  <section class="applications">
+  <h3>Applications</h3>
+  <p>Dedicated repositories for generating colorschemes for these <small>(TODO: many)</small> applications:</p>
+    <ul class="list-bullets fs-larger">
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
     </ul>
-
-    <p id="footnote-1" class="_mtl">1. Installing from NPM means you will also need to have Node.js installed; instructions can be found <a href="https://docs.npmjs.com/getting-started/installing-node">here</a>.</p></div><?php ?>
+  </section>
+</div><?php ?>
