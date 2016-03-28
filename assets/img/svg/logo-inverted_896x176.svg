@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 896 176">
 <g id="bg">
-	<rect fill="#CECEE3" width="896" height="176"/>
+	<rect fill="#DDDDF1" width="896" height="176"/>
+</g>
+<g id="bg-inner">
+	<polygon fill="#AAAACA" points="896,176 0,176 36,160 859.999,160"/>
+	<polygon fill="#CECEE3" points="36,160 0,176 0,0 36,0"/>
+	<polygon fill="#CECEE3" points="860,160 896,176 896,0 860,0"/>
 </g>
 <g id="tone-shadow">
 	<path fill="#515167" d="M518.83,32.2V160H504.7V32.2h-38.763V18.671h91.857V32.2H518.83z"/>
