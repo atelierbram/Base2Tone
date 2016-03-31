@@ -44,7 +44,7 @@
 </g>
 </svg>
 
-</a></h1><p>2 base hues &#8211; 32 variations &gt; 1 theme </p></header><?php ob_end_flush(); function compress_svg($buffer) {
+</a></h1><p>2 base hues &#8211; 32 color values &gt; 1 theme </p></header><?php ob_end_flush(); function compress_svg($buffer) {
   $search = array("/>[[:space:]]+/", "/[[:space:]]+</");
   $replace = array(">","<");
   return preg_replace($search, $replace, $buffer);
