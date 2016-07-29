@@ -31,6 +31,7 @@
   <p>Dedicated repositories for generating colorschemes for these <small>(TODO: many)</small> applications:</p>
     <ul class="list-bullets fs-larger">
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
     </ul>
   </section>

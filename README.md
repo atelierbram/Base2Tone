@@ -17,6 +17,8 @@ Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/du
 Use these colorschemes to generate syntax-highlighting themes (TODO: _for many applications_):
 
 [Prism](https://github.com/atelierbram/Base2Tone-prism)
+[Vim](https://github.com/atelierbram/Base2Tone-vim)
+[Markdown (color-value tables](https://github.com/atelierbram/Base2Tone-markdown)
 
 ### Dependencies
  Some customized commands from the latest fork of Base16 Builder can be found here in an executable bash script (`io.sh`). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool [on the Github repo for Base16 Builder](https://github.com/base16-builder/base16-builder), and the many ways to use it from the command-line.
