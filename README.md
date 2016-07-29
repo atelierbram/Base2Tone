@@ -18,6 +18,7 @@ Use these colorschemes to generate syntax-highlighting themes (TODO: _for many a
 
 [Prism](https://github.com/atelierbram/Base2Tone-prism)
 [Vim](https://github.com/atelierbram/Base2Tone-vim)
+[iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 [Markdown (color-value tables](https://github.com/atelierbram/Base2Tone-markdown)
 
 ### Dependencies
