@@ -38,36 +38,57 @@
 
 // Webfont: Overpass-Light
 // https://github.com/RedHatBrand/overpass
-@font-face {
-  font-family: 'Overpass';
-  src: url('../../fonts/overpass/Overpass-Light.woff2') format('woff2'),
-  url('../../fonts/overpass/Overpass-Light.woff') format('woff'),
-  url('../../fonts/overpass/Overpass-Light.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-
-//Webfont: Overpass-Reg
-@font-face {
-    font-family: 'Overpass';
-    src: url('../../fonts/overpass/Overpass-Regular.woff2') format('woff2'),
-         url('../../fonts/overpass/Overpass-Regular.woff') format('woff'),
-         url('../../fonts/overpass/Overpass-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 600;
-    text-rendering: optimizeLegibility;
-}
-
-// Webfont: Overpass-Bold
+// @font-face {
+//   font-family: 'Overpass';
+//   src: url('../../fonts/overpass/Overpass-Light.woff2') format('woff2'),
+//   url('../../fonts/overpass/Overpass-Light.woff') format('woff'),
+//   url('../../fonts/overpass/Overpass-Light.ttf') format('truetype');
+//   font-style: normal;
+//   font-weight: normal;
+//   text-rendering: optimizeLegibility;
+// }
+//
+// //Webfont: Overpass-Reg
 // @font-face {
 //     font-family: 'Overpass';
-//     src: url('../../fonts/overpass/Overpass-Bold.woff2') format('woff2'),
-//          url('../../fonts/overpass/Overpass-Bold.woff') format('woff'),
-//          url('../../fonts/overpass/Overpass-Bold.ttf') format('truetype');
+//     src: url('../../fonts/overpass/Overpass-Regular.woff2') format('woff2'),
+//          url('../../fonts/overpass/Overpass-Regular.woff') format('woff'),
+//          url('../../fonts/overpass/Overpass-Regular.ttf') format('truetype');
 //     font-style: normal;
-//     font-weight: 700;
+//     font-weight: 600;
 //     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'infiniregular';
+    src: url('../../fonts/infini/infini-romain.woff2') format('woff2'),
+         url('../../fonts/infini/infini-romain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infiniitalic';
+    src: url('../../fonts/infini/infini-italique.woff2') format('woff2'),
+         url('../../fonts/infini/infini-italique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'infinibold';
+//     src: url('../../fonts/infini/infini-gras.woff2') format('woff2'),
+//          url('../../fonts/infini/infini-gras.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+//
+// @font-face {
+//     font-family: 'infini_pictoregular';
+//     src: url('../../fonts/infini/infini-picto.woff2') format('woff2'),
+//          url('../../fonts/infini/infini-picto.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
 // }
 
 // generic demo styles
@@ -130,7 +151,7 @@ small {
 
 .wf-active body,
 .wf-active button {
-  font-family: Overpass, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  font-family: infiniregular, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -156,15 +177,15 @@ h4 {
 .wf-active h1,
 .wf-active h2,
 .wf-active h3 {
-  font-family: Overpass, AvenirNextCondensed-DemiBold, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  font-family: infiniregular, AvenirNextCondensed-DemiBold, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
 
 .wf-active h4 {
-  font-family: Overpass, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  font-family: infiniregular, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
 
 .wf-active strong {
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .bg-dark .col h3 {
@@ -208,19 +229,26 @@ a {
 .footer {
   width: 100%;
   text-align: center;
-  color: $baseB7;
+  color: $baseA0;
+  // background-color: adjust-color($baseB7, $saturation: -50%);
+  background-color: $baseB7;
 }
 
+// .github-corner svg[style] {
+//   fill: $baseA0 !important;
+// }
+
+// .bg-dark
 .github-corner svg[style] {
-  fill: $baseA0 !important;
+  transition: .3s all;
+  fill: $baseA7 !important;
+  color: $baseA5 !important;
 }
 
-.bg-dark .github-corner svg[style] {
-  color: $baseA2 !important;
-}
-
-.bg-dark .github-corner:hover svg[style] {
-  color: $baseD3 !important;
+// .bg-dark
+.github-corner:hover svg[style] {
+  fill: $baseA6 !important;
+  color: $baseD7 !important;
 }
 
 // .bg-light .github-corner svg[style] {
@@ -231,13 +259,13 @@ a {
 //   color: $baseD7 !important;
 // }
 //
-.bg-dark .header {
-  background: $baseA2;
-}
-
-.bg-dark .footer {
-  background: $baseA1;
-}
+// .bg-dark .header {
+//   background: $baseA2;
+// }
+//
+// .bg-dark .footer {
+//   background: $baseA1;
+// }
 
 // .bg-light .header {
 //   background: $baseC0;
@@ -275,21 +303,21 @@ a {
   word-spacing: -1px;
 }
 
-.bg-dark .header a,
-.bg-dark .footer a {
-  color: $baseD3;
+.header a,
+.footer a {
+  color: $baseA2;
   transition: all .3s;
   &:hover {
     color: $baseD6;
   }
 }
-.theme-morning-dark .header a,
-.theme-earth-dark .header a {
-   color: $baseD7;
-  &:hover {
-    color: adjust-color($baseD7, $lightness: 5%);
-  }
-}
+// .theme-morning-dark .header a,
+// .theme-earth-dark .header a {
+//    color: $baseD7;
+//   &:hover {
+//     color: adjust-color($baseD7, $lightness: 5%);
+//   }
+// }
 
 // .bg-light .header a {
 //     color: $baseD7;
@@ -298,23 +326,23 @@ a {
 //   }
 // }
 
-.theme-morning-light .header a,
-.theme-earth-light .header a,
-.theme-forest-light .header a {
-   color: $baseD4;
-  &:hover {
-    color: adjust-color($baseD4, $lightness: 5%);
-  }
-}
-
-.theme-cave-light .header a,
-.theme-heath-light .header a {
-  color: $baseD5;
-  &:hover {
-    color: adjust-color($baseD5, $lightness: 5%);
-  }
-}
-
+// .theme-morning-light .header a,
+// .theme-earth-light .header a,
+// .theme-forest-light .header a {
+//    color: $baseD4;
+//   &:hover {
+//     color: adjust-color($baseD4, $lightness: 5%);
+//   }
+// }
+//
+// .theme-cave-light .header a,
+// .theme-heath-light .header a {
+//   color: $baseD5;
+//   &:hover {
+//     color: adjust-color($baseD5, $lightness: 5%);
+//   }
+// }
+//
 // .bg-light .footer a {
 //   color: adjust-color($baseD7, $lightness: 0%);
 //   &:hover {
@@ -336,7 +364,8 @@ a {
     padding-bottom: 20%;
   }
   @media(min-width: 690px) {
-    width: 555px;
+    min-width: 555px;
+    width: 90vw;
   }
 }
 
@@ -354,9 +383,10 @@ svg {
   }
 }
 
-.bg-dark [id*="logo-glyphs"] {
-  fill: $baseB6;
-}
+// .bg-dark
+// [id*="logo-glyphs"] {
+//   fill: $baseB6;
+// }
 
 // .bg-light [id*="logo-glyphs"] {
 //   fill: $baseB7;
@@ -366,26 +396,36 @@ svg {
 //   fill: adjust-color($baseD7, $lightness: 5%);
 // }
 
-[class*="bg-"] [id*="-shadow"] path,
-[class*="bg-"] [id*="-inner"],
-[class*="bg-"] [id*="-gt-"] path {
+
+[id="logo-glyphs-base"] {
+  color: $baseD3 ;
+}
+
+[class*="bg-"] [id*="-shadow"] path {
+// [class*="bg-"] [id*="-inner"],
+// [class*="bg-"] [id*="-gt-"] path {
   fill: currentColor;
 }
 
-[class*="bg-"] [id*="-shadow"] path,
-[class*="bg-"] [id="logo-glyphs-gt-1"] path,
-[class*="bg-"] [id*="-inner"] path {
+[class*="bg-"] [id*="-shadow"] path {
+// [class*="bg-"] [id="logo-glyphs-gt-1"] path,
+// [class*="bg-"] [id*="-inner"] path {
   opacity: 0;
 }
 
-.domready [id*="-shadow"] path,
-.domready [id*="-inner"] path,
-.domready [id*="-gt-"] path {
+.domready [id*="-shadow"] path {
+// .domready [id*="-inner"] path,
+// .domready [id*="-gt-"] path {
   animation: glyph-opacity 3s infinite linear;
 }
+
+.domready [id*="-inner"] path {
+  animation: glyph-fill 3s infinite linear;
+}
+
 .domready [id="glyphs-base-shadow"] path,
-.domready [id="logo-glyphs-tone-inner"] path,
-.domready [id="logo-glyphs-gt-1"] path {
+.domready [id="logo-glyphs-tone-inner"] path {
+// .domready [id="logo-glyphs-gt-1"] path {
   animation-delay: 1.5s;
 }
 
@@ -405,6 +445,20 @@ svg {
   }
 }
 
+@keyframes glyph-fill {
+  0% {
+    fill: $baseB7;
+  }
+  49% {
+    fill: $baseB7;
+  }
+  50% {
+    fill: currentColor;
+  }
+  99% {
+    fill: currentColor;
+  }
+}
 
 // nav
 nav ul {
@@ -970,7 +1024,7 @@ thead th {
   text-align: center;
   font-size: 1.125em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   background: $baseA6;
 }
 
@@ -1042,23 +1096,21 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 .dropcap {
   float: left;
   line-height: 1;
-  text-indent: -1em;
-  overflow: hidden;
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 100'%3E%3Cpath fill='rgb(177, 169, 165)' d='M0,0h33.142c5.808,0,10.69,0.763,14.643,2.286c3.95,1.524,7.094,3.5,9.429,5.929c2.332,2.429,4,5.214,4.999,8.357 c1.001,3.143,1.501,6.335,1.501,9.571c0,5.143-1.429,9.5-4.286,13.071c-2.857,3.572-6.667,6.264-11.429,8.072 C53.428,48.621,58,51.357,61.714,55.5c3.714,4.144,5.571,9.643,5.571,16.5c0,3.429-0.5,6.811-1.5,10.143 c-1,3.335-2.739,6.311-5.215,8.929c-2.478,2.62-5.763,4.764-9.857,6.429c-4.096,1.668-9.191,2.5-15.285,2.5H0V0z'/%3E%3C/svg%3E") center no-repeat;
-  // outline: 1px dotted salmon;
-
-  width: 55px;
-  height: 82px;
+  width: 62px;
+  height: 90px;
   margin-right: 3px;
+  position: relative;
+  font-size: 5.3em;
+  top: -8px;
 
   @media(min-width: 641px) {
-    width: 68px;
-    height: 100px;
+    width: 73px;
+    height: 108px;
   }
 }
 
 .wf-active .intro {
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .section-text,
@@ -1111,9 +1163,9 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   content: " \B7"; /* middot in unicode -> &middot; */
   font-size: 1.25em;
   color: $baseC1;
-  line-height: 0;
+  line-height: 1;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   padding-right: 3px;
 }
 

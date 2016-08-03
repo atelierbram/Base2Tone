@@ -1,4 +1,17 @@
 <?php ?><div class="content has-themes-hidden" id="content">
+  <div class="row note">
+  <section class="applications">
+  <h3>Applications</h3>
+  <p>Dedicated repositories for generating colorschemes:</p>
+    <ul class="list-bullets fs-larger">
+      <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-iterm2">iTerm2</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-hyperterm">HyperTerm</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
+    </ul>
+  </section>
+</div>
   <div class="row row-intro">
     <div class="section-text">
       <p class="intro"><span class="dropcap dropcap-b">B</span>ase2Tone colorschemes are created from two base hues, into (32) values with different saturation and lightness levels. Base2Tone is based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a> for Atom:</p>
@@ -25,15 +38,4 @@
 
     <p id="footnote-1" class="_mtl">1. Installing from NPM means you will also need to have Node.js installed; instructions can be found <a href="https://docs.npmjs.com/getting-started/installing-node">here</a>.</p>
   </div>
-  <div class="row note">
-  <section class="applications">
-  <h3>Applications</h3>
-  <p>Dedicated repositories for generating colorschemes for these <small>(TODO: many)</small> applications:</p>
-    <ul class="list-bullets fs-larger">
-      <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
-      <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
-      <li><a href="https://github.com/atelierbram/Base2Tone-iterm2">iTerm2</a></li>
-      <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
-    </ul>
-  </section>
-</div><?php ?>
+<?php ?>

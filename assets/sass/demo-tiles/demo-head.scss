@@ -13,8 +13,8 @@
   color: #fff;
 }
 
- .bg-dark .header {
-  background: #545167;
+.header {
+  background: hsl(240,50%,96%);
 }
 
 .header {
@@ -24,6 +24,11 @@
   @media(max-width: 640px) {
     padding-top: 3em;
   }
+}
+
+.header a,
+.footer a {
+  color: #515167;
 }
 
 .header p {
@@ -37,13 +42,17 @@
   }
 }
 
-.bg-dark .header a {
-  color: #ffa142;
-  transition: all .3s;
-  &:hover {
-    color: #ffc285;
-  }
+[id="logo-glyphs-base"] {
+  color: #e66e33;
 }
+
+// .bg-dark .header a {
+//   color: #ffa142;
+//   transition: all .3s;
+//   &:hover {
+//     color: #ffc285;
+//   }
+// }
 h1 {
   margin: 0;
   display: inline-block;
@@ -65,19 +74,19 @@ svg {
   max-width: 100%;
 }
 
-.bg-dark [id*="logo-glyphs"],
-.bg-dark [id="logo-glyphs-2"] {
-  fill: #d9d2fe;
-}
+// .bg-dark [id*="logo-glyphs"],
+// .bg-dark [id="logo-glyphs-2"] {
+//   fill: #d9d2fe;
+// }
+//
+// .bg-dark [id="logo-glyphs-2"] {
+//   fill: #d9d2fe;
+// }
 
-.bg-dark [id="logo-glyphs-2"] {
-  fill: #d9d2fe;
-}
-
-[class*="bg-"] [id*="-inner"],
-[class*="bg-"] [id*="-gt-"] path {
-  fill: currentColor;
-}
+// [class*="bg-"] [id*="-inner"],
+// [class*="bg-"] [id*="-gt-"] path {
+//   fill: currentColor;
+// }
 
 .visuallyhidden {
   border: 0;
@@ -90,17 +99,16 @@ svg {
   width: 1px;
 }
 
-.github-corner svg[style] {
-  color: #545167 !important;
-}
-
+// .github-corner svg[style] {
+//   color: #545167 !important;
+// }
+//
 .nav-themes-hidden {
   width: 0;
   overflow: hidden;
 }
 
-[class*="bg-"] [id="logo-glyphs-gt-1"] path,
-[class*="bg-"] [id*="-inner"] path,
+// [class*="bg-"] [id="logo-glyphs-gt-1"] path,
 nav,
 .container-flex,
 h3,
