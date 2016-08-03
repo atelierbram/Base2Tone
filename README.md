@@ -1,4 +1,4 @@
-![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/svg/logo-inverted_896x176.svg "Logo Base2Tone")
+![Base2Tone](http://base2t.one/assets/img/svg/logo-infini_896x176.svg "Logo Base2Tone")
 
 # [Base2Tone](http://base2t.one/)
 2 base hues - 32 color values > 1 theme
