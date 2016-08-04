@@ -36,43 +36,23 @@
 .bg-baseD7 { background-color: $baseD7; color: $baseD0; }
 
 
-// Webfont: Overpass-Light
-// https://github.com/RedHatBrand/overpass
-// @font-face {
-//   font-family: 'Overpass';
-//   src: url('../../fonts/overpass/Overpass-Light.woff2') format('woff2'),
-//   url('../../fonts/overpass/Overpass-Light.woff') format('woff'),
-//   url('../../fonts/overpass/Overpass-Light.ttf') format('truetype');
-//   font-style: normal;
-//   font-weight: normal;
-//   text-rendering: optimizeLegibility;
-// }
-//
-// //Webfont: Overpass-Reg
-// @font-face {
-//     font-family: 'Overpass';
-//     src: url('../../fonts/overpass/Overpass-Regular.woff2') format('woff2'),
-//          url('../../fonts/overpass/Overpass-Regular.woff') format('woff'),
-//          url('../../fonts/overpass/Overpass-Regular.ttf') format('truetype');
-//     font-style: normal;
-//     font-weight: 600;
-//     text-rendering: optimizeLegibility;
-// }
-
 @font-face {
     font-family: 'infiniregular';
-    src: url('../../fonts/infini/infini-romain.woff2') format('woff2'),
-         url('../../fonts/infini/infini-romain.woff') format('woff');
+    // src: url('../../fonts/infini/infini-romain.woff2') format('woff2'),
+    //      url('../../fonts/infini/infini-romain.woff') format('woff'); 
+    src: url('//base2t.one/assets/fonts/infini/infini-romain.woff2') format('woff2'),
+         url('//base2t.one/assets/fonts/infini/infini-romain.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'infiniitalic';
-    src: url('../../fonts/infini/infini-italique.woff2') format('woff2'),
-         url('../../fonts/infini/infini-italique.woff') format('woff');
+    src: url('//base2t.one/assets/fonts/infini/infini-italique.woff2') format('woff2'),
+         url('//base2t.one/assets/fonts/infini/infini-italique.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    text-rendering: optimizeLegibility;
 }
 
 // @font-face {
@@ -115,17 +95,13 @@ body {
   color: $baseA0;
 }
 
-// .bg-light,
-// .bg-light body {
-//   background-color: adjust-color($baseA7, $lightness: 5%);
-//   color: $baseC7;
-// }
-
 body {
   margin: 0;
   font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
   min-height: 100%;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 section {
@@ -169,10 +145,6 @@ h4 {
   margin: 1rem 0 0 1rem;
   text-transform: capitalize;
 }
-
-// h2, h3 {
-//   padding: 1rem 0 0;
-// }
 
 .wf-active h1,
 .wf-active h2,
@@ -251,30 +223,6 @@ a {
   color: $baseD7 !important;
 }
 
-// .bg-light .github-corner svg[style] {
-//   color: $baseC0 !important;
-// }
-//
-// .bg-light .github-corner:hover svg[style] {
-//   color: $baseD7 !important;
-// }
-//
-// .bg-dark .header {
-//   background: $baseA2;
-// }
-//
-// .bg-dark .footer {
-//   background: $baseA1;
-// }
-
-// .bg-light .header {
-//   background: $baseC0;
-// }
-//
-// .bg-light .footer {
-//   background: $baseC1;
-// }
-//
 .header {
   padding: .5em 1em 2em;
 
@@ -311,44 +259,6 @@ a {
     color: $baseD6;
   }
 }
-// .theme-morning-dark .header a,
-// .theme-earth-dark .header a {
-//    color: $baseD7;
-//   &:hover {
-//     color: adjust-color($baseD7, $lightness: 5%);
-//   }
-// }
-
-// .bg-light .header a {
-//     color: $baseD7;
-//   &:hover {
-//     color: adjust-color($baseD7, $lightness: 5%);
-//   }
-// }
-
-// .theme-morning-light .header a,
-// .theme-earth-light .header a,
-// .theme-forest-light .header a {
-//    color: $baseD4;
-//   &:hover {
-//     color: adjust-color($baseD4, $lightness: 5%);
-//   }
-// }
-//
-// .theme-cave-light .header a,
-// .theme-heath-light .header a {
-//   color: $baseD5;
-//   &:hover {
-//     color: adjust-color($baseD5, $lightness: 5%);
-//   }
-// }
-//
-// .bg-light .footer a {
-//   color: adjust-color($baseD7, $lightness: 0%);
-//   &:hover {
-//     color: adjust-color($baseD7, $lightness: 10%);
-//   }
-// }
 
 // logo
 .logo {
@@ -384,39 +294,19 @@ svg {
   }
 }
 
-// .bg-dark
-// [id*="logo-glyphs"] {
-//   fill: $baseB6;
-// }
-
-// .bg-light [id*="logo-glyphs"] {
-//   fill: $baseB7;
-// }
-
-// .bg-light [id="logo-glyphs-2"] {
-//   fill: adjust-color($baseD7, $lightness: 5%);
-// }
-
-
 [id="logo-glyphs-base"] {
   color: $baseD3 ;
 }
 
 [class*="bg-"] [id*="-shadow"] path {
-// [class*="bg-"] [id*="-inner"],
-// [class*="bg-"] [id*="-gt-"] path {
   fill: currentColor;
 }
 
 [class*="bg-"] [id*="-shadow"] path {
-// [class*="bg-"] [id="logo-glyphs-gt-1"] path,
-// [class*="bg-"] [id*="-inner"] path {
   opacity: 0;
 }
 
 .domready [id*="-shadow"] path {
-// .domready [id*="-inner"] path,
-// .domready [id*="-gt-"] path {
   animation: glyph-opacity 3s infinite linear;
 }
 
@@ -426,7 +316,6 @@ svg {
 
 .domready [id="glyphs-base-shadow"] path,
 .domready [id="logo-glyphs-tone-inner"] path {
-// .domready [id="logo-glyphs-gt-1"] path {
   animation-delay: 1.5s;
 }
 
@@ -499,17 +388,6 @@ nav ul {
   }
 }
 
-// .bg-light .nav-themes_list a {
-//   background-color: $baseC1;
-//   border-top-color: adjust-color($baseC1, $lightness: 2.5%);
-//   border-bottom-color: $baseC0;
-//   color: $baseB7;
-//
-//   &:hover {
-//     background-color: adjust-color($baseC1, $lightness: -2.5%);
-//   }
-// }
-
 .nav_list .current a {
   pointer-events: none;
   cursor: default;
@@ -526,13 +404,6 @@ nav ul {
   border-top-color: adjust-color($baseA0, $lightness: -2.5%);
   border-bottom-color: adjust-color($baseA0, $lightness: 2.5%);
 }
-
-// .bg-light .nav-themes_list .current a {
-//   background-color: $baseC7;
-//   color: $baseB3;
-//   border-top-color: adjust-color($baseA7, $lightness: -2.5%);
-//   border-bottom-color: adjust-color($baseA7, $lightness: 2.5%);
-// }
 
 .nav_toggle {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='rgb(255,255,255)'%3E%3Crect x='12' y='14' width='16' height='2'/%3E%3Crect x='12' y='20' width='16' height='2'/%3E%3Crect x='12' y='26' width='16' height='2'/%3E%3C/svg%3E");
@@ -579,18 +450,6 @@ nav ul {
     border-radius: 3px;
   }
 }
-
-// .bg-dark .nav_toggle-themes {
-//   @media(min-width: 640px) {
-//     background-color: $baseA1;
-//   }
-// }
-
-// .bg-light .nav_toggle-themes {
-//   @media(min-width: 640px) {
-//     background-color: adjust-color($baseC0, $lightness: -5%);
-//   }
-// }
 
 // end menu
 
@@ -655,20 +514,10 @@ nav ul {
   transition: all .3s;
 }
 
-// .bg-light .nav-themes {
-//   background-color: $baseC1;
-// }
-
 .bg-dark .nav-themes {
   background-color: $baseA1;
 }
 
-// .js .nav-themes {
-//   @media(min-width:640px) {
-//     margin-top: 0;
-//   }
-// }
-//
 .nav-themes-open {
 
   @media(max-width: 639px) {
@@ -808,11 +657,6 @@ nav ul {
   color: $baseA1;
 }
 
-// .bg-light .demo-tiles-header-text,
-// .bg-light .h3 {
-//   color: $baseA2;
-// }
-
 .demo-tiles-header-text b {
   font-weight: normal;
 }
@@ -829,10 +673,6 @@ nav ul {
   letter-spacing: .5px;
   word-spacing: -.5px;
 }
-
-// .bg-light .demo-tiles-header-text .number-shades {
-//   color: $baseC0;
-// }
 
 .demo-tiles-header .button {
   float: right;
@@ -916,34 +756,6 @@ section h3 {
 .bg-dark ::-webkit-scrollbar-corner {
   background-color: $baseA1;
 }
-
-// light bg
-// .bg-light ::-webkit-scrollbar-track {
-//   box-shadow: inset 0 0 6px rgba($baseA7,0.3);
-//   border-radius: 2px;
-//   background-color: adjust-color($baseA7, $lightness: 2.5%);
-// }
-
-// .bg-light ::-webkit-scrollbar {
-//   width: .75em;
-//   height: .75em;
-//   background-color: adjust-color($baseA7, $lightness: -5%);
-// }
-
-// .bg-light ::-webkit-scrollbar-thumb {
-//   border-radius: 2px;
-//   box-shadow: inset 0 0 6px rgba($baseA3,.3);
-//   background-color: adjust-color($baseA7, $lightness: -2.5%);
-// }
-
-// .bg-light ::-webkit-scrollbar-thumb:window-inactive {
-//   background-color: $baseA4;
-// }
-
-// .bg-light ::-webkit-scrollbar-corner {
-//   background-color: transparent;
-// }
-
 
 button {
   -webkit-appearance: none;
@@ -1142,10 +954,6 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 .fs-larger {
   font-size: 1.25em;
 }
-
-// .fw-bold {
-//   font-weight: 600;
-// }
 
 .note {
   background-color: $baseC5;

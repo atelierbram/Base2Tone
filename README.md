@@ -48,7 +48,7 @@ Released under [MIT Licence](http://atelierbram.mit-license.org)
 ---
 
 #### Infini Font
-[Infini](http://www.cnap.graphismeenfrance.fr/infini/en/), by [Sandrine Nugue](//www.sandrinenugue.com/), is the font being used [in the demo site](http://base2t.one). Infini is a public commission of the National Centre for Visual Arts on the occasion of “Graphisme en France 2014”. The type family is available for free under a Creative Commons Attribution-NoDerivs 2.0 Generic license
+[Infini](http://www.cnap.graphismeenfrance.fr/infini/en/), by [Sandrine Nugue](//www.sandrinenugue.com/), is the font being used [in the demo site](http://base2t.one). Infini is a public commission of the National Centre for Visual Arts on the occasion of “Graphisme en France 2014”. The type family is available for free under a [Creative Creative Commons Attribution-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nd/3.0/)
 
 ---
 
