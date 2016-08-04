@@ -369,6 +369,7 @@ a {
   }
 }
 
+img,
 svg {
   max-width: 100%;
 }
@@ -719,7 +720,10 @@ nav ul {
   max-width: 35em;
   padding: .5em 0;
 }
-blockquote {
+
+.wf-active .quote {
+  font-family: infiniitalic, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  font-style: normal;
 }
 
 .quote p {

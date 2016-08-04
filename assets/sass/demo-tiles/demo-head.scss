@@ -58,20 +58,39 @@ h1 {
   display: inline-block;
   font-size: 2.5rem;
 }
-
-// logo
+//
+ // logo
 .logo {
-  width: 288px;
+  position: relative;
   display: inline-block;
   vertical-align: middle;
+  // background-color: salmon;
+  // outline: 1px dotted grey;
 
+  @media(min-width: 320px) {
+    width: 288px;
+    height: 0;
+    padding-bottom: 20%;
+  }
   @media(min-width: 690px) {
-    width: 555px;
+    min-width: 555px;
+    width: 90vw;
   }
 }
 
+img,
 svg {
   max-width: 100%;
+}
+
+.logo svg {
+  @media(max-width: 319px) {
+    display: none;
+  }
+  @media(min-width: 320px) {
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+  }
 }
 
 // .bg-dark [id*="logo-glyphs"],
