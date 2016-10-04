@@ -8,7 +8,7 @@ Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/du
 > It <strong>tones down</strong> less important parts (like punctuation and brackets) and highlights only the <strong>important</strong> ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.
 
 ## Applications
-Dedicated repositories for generating syntax-highlighting themes:
+This repository is like an umbrella over these dedicated repositories for generating syntax-highlighting themes:
 
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
@@ -20,20 +20,27 @@ Dedicated repositories for generating syntax-highlighting themes:
 <br/>
 Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
 
+### Dependencies
+ Some customized commands from the latest fork of Base16 Builder can be found here in executable bash scripts (`cli` folder). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool [on the Github repo for Base16 Builder](https://github.com/base16-builder/base16-builder), and the many ways to use it from the command-line.
+
+Base16 Builder is available on NPM <sup>1</sup>, you can install it on your machine like so from the commandline:
+
+```bash
+$ npm install --global base16-builder
+```
+
+### Setup and Naming Convention
+Each repository follows the same naming convention for the naming of the folders, [taken from Base16-Builder](https://github.com/base16-builder/base16-builder); in the `db`-folder there is `templates` and `schemes`. The `templates` folder contain the templates for generating the output of the _themes_ for the specific application: `.ejs`-files (_often called `dark.ejs` and `light.ejs`_). The Base16-Builder templating engine is informed by the color-values from a `yml`-file in the `schemes` folder to generate this specific theme (_for this specific application_) from the command-line like:
+
+```bash
+base16-builder --scheme "../db/schemes/base2tone-desert.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-desert.scss"
+```
+
 ### Create your own colorscheme.
-The schemes and templates used can be found in the `db` folder, from other repos here on Github, for example [Base2Tone-prism](https://github.com/atelierbram/Base2Tone-prism). Copy and edit one of them `schemes/colorschemes.yml` from 32 color-value variables, (_maybe start by editing the demo-tile colors in the demo_) and build your own Base2Tone Prism theme. Make a pull request if you would like to see it here in amongst these colorschemes. More conversions for other applications will follow, [see also here](http://atelierbram.github.io/syntax-highlighting/duotones/).
+This is the hard part; although the idea is to make color-schemes from just two color-hues, there is no easy way (_at least not on this repository_) to generate colorschemes from these two color-hues, (_because I don’t believe in an automated process that takes account of the peculiarities of the human eye, in connection to the perception of color_). It will always be a manual iterative process. My process is editing the demo-tile colors for [Base2Tone-prism](https://github.com/atelierbram/Base2Tone-prism), you can see those demo-tiles on top of the pages [over here](http://atelierbram.github.io/Base2Tone-prism/demo/evening/dark/). So what I do is edit the `sass` file for those demo-tiles (_I use `HSL` and then convert those values from the browser, or a tool like [HSL Color Picker](http://hslpicker.com/) to `HEX` values_), and then manually copy and paste the new color-values over into a new `schemes/my-new-colorscheme.yml`. After that generate the `prism-my-new-colorscheme.scss` and see how the syntax-highlighting turns out on that demo-page. There are 32 color-value variables to be defined, so it will require a dedicated effort to build your own Base2Tone colorscheme. But if you do succeed in this, you will have the blueprint for generating colorthemes for these applications (_see above , and for many more applications in the future_).
 
 ### Conversions
 The light version of the Morning theme, and dark versions of Evening, Sea, Space, Earth and Forest were converted from [DuoTone Themes for Atom](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http//simurai.com). Morning and Evening are the default Duotone Light and Duotone Dark schemes, but renamed here in order to have a consistent naming convention.
-
-### Dependencies
- Some customized commands from the latest fork of Base16 Builder can be found here in an executable bash script (`io.sh`). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool [on the Github repo for Base16 Builder](https://github.com/base16-builder/base16-builder), and the many ways to use it from the command-line.
-
-Base16 Builder is available on NPM<sup>[1]</sup>, you can install it on your machine like so from the commandline:
-
-```
-$ npm install --global base16-builder
-```
 
 ### Credits
 - [Simurai](http//simurai.com) for creating [DuoTone Themes](http://simurai.com/projects/2016/01/01/duotone-themes): I am merely recreating/converting these themes for other applications, while also making some variations of my own.
