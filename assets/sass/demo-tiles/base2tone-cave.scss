@@ -30,9 +30,9 @@
 // $baseD2: "b88914";
 // $baseD3: "c39622";
 // $baseD4: "cca133";
-// $baseD5: "d9c38c";
-// $baseD6: "e6d099";
-// $baseD7: "fce19c";
+// $baseD5: "ddaf3c d9c38c";
+// $baseD6: "ebbc47 e6d099";
+// $baseD7: "ffcc4d fce19c";
 
 $baseA0: hsl(339, 2%, 13%);
 $baseA1: hsl(339, 2%, 18%);
@@ -66,9 +66,9 @@ $baseD1: hsl(43, 90%, 35%);
 $baseD2: hsl(43, 80%, 40%);
 $baseD3: hsl(43, 70%, 45%);
 $baseD4: hsl(43, 60%, 50%);
-$baseD5: hsl(43, 50%, 70%);
-$baseD6: hsl(43, 60%, 75%);
-$baseD7: hsl(43, 95%, 80%);
+$baseD5: hsl(43, 70%, 55%);
+$baseD6: hsl(43, 80%, 60%);
+$baseD7: hsl(43, 100%, 65%);
 
 @import "../../output/prism/_prism-base2tone-cave";
 @import "demo";

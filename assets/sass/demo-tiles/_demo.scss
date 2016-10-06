@@ -176,13 +176,17 @@ a {
 }
 
 .content a {
+  display: inline-block;
+  line-height: 1.25;
   color: $baseD2;
+
  &:hover {
    color: $baseD1;
    box-shadow: 0 4px 0 $baseD7;
-  // color: adjust-color($baseD3, $lightness: 5%);
  }
+
 }
+
 .note a {
   color: adjust-color($baseD1, $saturation: 15%);
  &:hover {

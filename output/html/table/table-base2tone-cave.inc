@@ -47,21 +47,21 @@
       <td>#8a8586</td>
       <td>#e28dab</td>
       <td>#d6d3cc</td>
-      <td>#d9c38c</td>
+      <td>#ddaf3c</td>
     </tr>
     <tr>
     <td>6</td>
     <td>#9f999b</td>
     <td>#f0a8c1</td>
     <td>#eae7e1</td>
-    <td>#e6d099</td>
+    <td>#ebbc47</td>
     </tr>
     <tr>
     <td>7</td>
     <td>#b3adaf</td>
     <td>#ffebf2</td>
     <td>#fbfaf9</td>
-    <td>#fce19c</td>
+    <td>#ffcc4d</td>
     </tr>
   </tbody>
 </table><?php ob_end_flush(); function compress_table($buffer) {

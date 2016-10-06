@@ -14,6 +14,8 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-lake.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-lake.inc"
   base16-builder --scheme "../db/schemes/base2tone-cave.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-cave.inc"
   base16-builder --scheme "../db/schemes/base2tone-heath.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-heath.inc"
+  base16-builder --scheme "../db/schemes/base2tone-drawbridge.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-drawbridge.inc"
+  base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-meadow.inc"
  }
 
 # execute it

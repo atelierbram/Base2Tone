@@ -9,59 +9,59 @@
   <tbody>
     <tr>
       <td>0</td>
-      <td>#1e2138</td>
-      <td>#4e58b1</td>
+      <td>#2a2433</td>
+      <td>#8f51e6</td>
       <td>#7a7171</td>
       <td>#cf504a</td>
     </tr>
     <tr>
       <td>1</td>
-      <td>#292c47</td>
-      <td>#5a63b5</td>
+      <td>#372f42</td>
+      <td>#9d63ee</td>
       <td>#8d8281</td>
       <td>#d95f59</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>#44486f</td>
-      <td>#656eb8</td>
+      <td>#574b68</td>
+      <td>#aa75f5</td>
       <td>#9f9393</td>
       <td>#ed655e</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>#51557b</td>
-      <td>#7178bc</td>
+      <td>#635775</td>
+      <td>#b886fd</td>
       <td>#b0a6a6</td>
       <td>#f36f68</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>#5e6287</td>
-      <td>#979dd3</td>
+      <td>#706383</td>
+      <td>#c7a0fe</td>
       <td>#c2b8b7</td>
       <td>#f87972</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>#7e7996</td>
-      <td>#bcc1e6</td>
+      <td>#857897</td>
+      <td>#d6b9fe</td>
       <td>#d7cccb</td>
-      <td>#fc847e</td>
+      <td>#fc8983</td>
     </tr>
     <tr>
     <td>6</td>
-    <td>#9490a7</td>
-    <td>#d1d4f0</td>
+    <td>#9a90a7</td>
+    <td>#e4d2fe</td>
     <td>#eae1e1</td>
-    <td>#ff908a</td>
+    <td>#ff9e99</td>
     </tr>
     <tr>
     <td>7</td>
-    <td>#aaa6b9</td>
-    <td>#e1e4ff</td>
+    <td>#afa7b9</td>
+    <td>#f3ebff</td>
     <td>#fbf9f9</td>
-    <td>#ff9e99</td>
+    <td>#ffb6b3</td>
     </tr>
   </tbody>
 </table><?php ob_end_flush(); function compress_table($buffer) {

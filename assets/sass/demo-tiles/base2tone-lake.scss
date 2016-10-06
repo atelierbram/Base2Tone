@@ -1,11 +1,11 @@
-// $baseA0: "1e3238";
-// $baseA1: "294047";
-// $baseA2: "44646f";
-// $baseA3: "51717b";
-// $baseA4: "5e7d87";
-// $baseA5: "798e96";
-// $baseA6: "90a2a7";
-// $baseA7: "a6b5b9";
+// $baseA0: "192d34 1e3238";
+// $baseA1: "223c44 294047";
+// $baseA2: "335966 44646f";
+// $baseA3: "3d6876 51717b";
+// $baseA4: "467686 5e7d87";
+// $baseA5: "508495 798e96";
+// $baseA6: "7ba8b7 90a2a7";
+// $baseA7: "adc8d1 a6b5b9";
 
 // $baseB0: "2f7289";
 // $baseB1: "36829b";
@@ -30,18 +30,18 @@
 // $baseD2: "b7a21a";
 // $baseD3: "c4b031";
 // $baseD4: "cbbb4d";
-// $baseD5: "d8c964";
-// $baseD6: "ecdd79";
-// $baseD7: "ffee80";
+// $baseD5: "d6c65c d8c964";
+// $baseD6: "e9d763 ecdd79";
+// $baseD7: "ffeb66 ffee80";
 
-$baseA0: hsl(195, 30%, 17%);
-$baseA1: hsl(195, 27%, 22%);
-$baseA2: hsl(195, 24%, 35%);
-$baseA3: hsl(195, 21%, 40%);
-$baseA4: hsl(195, 18%, 45%);
-$baseA5: hsl(195, 12%, 53%);
-$baseA6: hsl(195, 12%, 61%);
-$baseA7: hsl(195, 12%, 69%);
+$baseA0: hsl(195, 35%, 15%);
+$baseA1: hsl(195, 34%, 20%);
+$baseA2: hsl(195, 33%, 30%);
+$baseA3: hsl(195, 32%, 35%);
+$baseA4: hsl(195, 31%, 40%);
+$baseA5: hsl(195, 30%, 45%);
+$baseA6: hsl(195, 29%, 60%);
+$baseA7: hsl(195, 28%, 75%);
 
 $baseB0: hsl(195, 49%, 36%);
 $baseB1: hsl(195, 48%, 41%);
@@ -66,9 +66,9 @@ $baseD1: hsl(52, 80%, 33%);
 $baseD2: hsl(52, 75%, 41%);
 $baseD3: hsl(52, 60%, 48%);
 $baseD4: hsl(52, 55%, 55%);
-$baseD5: hsl(52, 60%, 62%);
-$baseD6: hsl(52, 75%, 70%);
-$baseD7: hsl(52, 100%, 75%);
+$baseD5: hsl(52, 60%, 60%);
+$baseD6: hsl(52, 75%, 65%);
+$baseD7: hsl(52, 100%, 70%);
 
 @import "../../output/prism/_prism-base2tone-lake";
 @import "demo";

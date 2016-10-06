@@ -34,9 +34,9 @@
 </g>
 
 <g class="circle-4">
-  <g class="circle_d7"><circle fill="#fce19c" cx="327" cy="48" r="40"/></g>
-  <g class="circle_d6"><circle fill="#e6d099" cx="327" cy="48" r="35"/></g>
-  <g class="circle_d5"><circle fill="#d9c38c" cx="327" cy="48" r="30"/></g>
+  <g class="circle_d7"><circle fill="#ffcc4d" cx="327" cy="48" r="40"/></g>
+  <g class="circle_d6"><circle fill="#ebbc47" cx="327" cy="48" r="35"/></g>
+  <g class="circle_d5"><circle fill="#ddaf3c" cx="327" cy="48" r="30"/></g>
   <g class="circle_d4"><circle fill="#cca133" cx="327" cy="48" r="25"/></g>
   <g class="circle_d3"><circle fill="#c39622" cx="327" cy="48" r="20"/></g>
   <g class="circle_d2"><circle fill="#b88914" cx="327" cy="48" r="15"/></g>

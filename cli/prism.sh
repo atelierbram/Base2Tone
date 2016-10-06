@@ -14,6 +14,8 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-lake.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-lake.scss"
   base16-builder --scheme "../db/schemes/base2tone-cave.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-cave.scss"
   base16-builder --scheme "../db/schemes/base2tone-heath.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-heath.scss"
+  base16-builder --scheme "../db/schemes/base2tone-drawbridge.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-drawbridge.scss"
+  base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/prism/prism.scss.ejs" > "../output/prism/_prism-base2tone-meadow.scss"
  }
 
 # execute it

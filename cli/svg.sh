@@ -14,6 +14,8 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-lake.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-lake.svg.inc"
   base16-builder --scheme "../db/schemes/base2tone-cave.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-cave.svg.inc"
   base16-builder --scheme "../db/schemes/base2tone-heath.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-heath.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-drawbridge.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-drawbridge.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-meadow.svg.inc"
  }
 
 # execute it
