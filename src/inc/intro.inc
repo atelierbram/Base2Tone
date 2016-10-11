@@ -6,6 +6,7 @@
     <ul class="list-bullets fs-larger">
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-iterm2">iTerm2</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-hyperterm">HyperTerm</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>

@@ -12,9 +12,10 @@ This repository is like an umbrella over these dedicated repositories for genera
 
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
+- [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 - [HyperTerm](https://github.com/atelierbram/Base2Tone-hyperterm)
-- [Markdown (color-value tables](https://github.com/atelierbram/Base2Tone-markdown)
+- [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
