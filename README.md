@@ -10,12 +10,13 @@ Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/du
 ## Applications
 This repository is like an umbrella over these dedicated repositories for generating syntax-highlighting themes:
 
-- [Prism](https://github.com/atelierbram/Base2Tone-prism)
-- [Vim](https://github.com/atelierbram/Base2Tone-vim)
-- [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
-- [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
+- [CodeMirror](https://github.com/atelierbram/Base2Tone-codemirror)
 - [HyperTerm](https://github.com/atelierbram/Base2Tone-hyperterm)
+- [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
+- [Prism](https://github.com/atelierbram/Base2Tone-prism)
+- [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
+- [Vim](https://github.com/atelierbram/Base2Tone-vim)
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
@@ -50,7 +51,7 @@ The light version of the Morning theme, and dark versions of Evening, Sea, Space
 ### Credits
 - [Simurai](http//simurai.com) for creating [DuoTone Themes](http://simurai.com/projects/2016/01/01/duotone-themes): I am merely recreating/converting these themes for other applications, while also making some variations of my own.
 - [Chis Kempson](http://github.com/chriskempson) for creating [Base16 Builder](http://http://github.com/chriskempson/base16-builder)
-- [Alois](https://github.com/aloisdg) and [Alex Booker](https://github.com/alexbooker) for rejuvenating the best colorscheme builder tool on the internet: [Base16 Builder](https://github.com/base16-builder/base16-builder)
+- [Alois](https://github.com/aloisdg) and [Alex Booker](https://github.com/bookercodes) for rejuvenating the best color-theme builder tool on the internet: [Base16 Builder](https://github.com/base16-builder/base16-builder)
 
 ### License
 Copyright (c) 2016 [Bram de Haan](http://atelierbramdehaan.nl/)
