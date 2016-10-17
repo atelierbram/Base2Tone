@@ -11,6 +11,7 @@ Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/du
 This repository is like an umbrella over these dedicated repositories for generating syntax-highlighting themes:
 
 - [CodeMirror](https://github.com/atelierbram/Base2Tone-codemirror)
+- [Highlight.js](https://github.com/atelierbram/Base2Tone-highlight.js)
 - [HyperTerm](https://github.com/atelierbram/Base2Tone-hyperterm)
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
