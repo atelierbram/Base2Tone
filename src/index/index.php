@@ -6,7 +6,7 @@ $themeId = 'space-index';
 $id = 'space-dark';
 $description = 'Base2Tone Colorschemes, 2 base hues - 32 variations > 1 theme';
 $bg = 'dark';
-$swaptext1 = 'Coming Soon';
+$swaptext1 = 'Color Schemes';
 $swaptext2 = 'Base2Tone';
 include '../inc/config.inc';
 include '../inc/head.inc';
