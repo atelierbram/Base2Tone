@@ -5,7 +5,7 @@
 
 Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 
-> It <strong>tones down</strong> less important parts (like punctuation and brackets) and highlights only the <strong>important</strong> ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.
+> “DuoTone themes use only 2 hues (7 shades in total). It __tones down__ less important parts (like punctuation and brackets) and highlights only the __important__ ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
 
 ## Applications
 This repository is like an umbrella over these dedicated repositories for generating syntax-highlighting themes:
@@ -19,7 +19,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
 
-![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
+![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_696x461.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
 Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
 
