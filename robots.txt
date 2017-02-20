@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+
+Sitemap: http://base2t.one/sitemap.xml
+
+# Allow crawling of all content
+User-agent: *
