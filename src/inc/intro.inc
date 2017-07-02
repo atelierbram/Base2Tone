@@ -12,6 +12,7 @@
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-xrdb">XRDB</a></li>
     </ul>
   </section>
 </div>

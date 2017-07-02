@@ -18,6 +18,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
+- [XRDB](https://github.com/atelierbram/Base2Tone-xrdb)
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_696x461.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
