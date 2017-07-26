@@ -16,7 +16,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
-- [Sublime Text](https://github.com/atelierbram/Base2Tone-sublime-text)
+- [Sublime Text (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
 - [XRDB](https://github.com/atelierbram/Base2Tone-xrdb)
 
