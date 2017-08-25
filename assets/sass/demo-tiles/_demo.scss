@@ -39,7 +39,7 @@
 @font-face {
     font-family: 'infiniregular';
     // src: url('../../fonts/infini/infini-romain.woff2') format('woff2'),
-    //      url('../../fonts/infini/infini-romain.woff') format('woff'); 
+    //      url('../../fonts/infini/infini-romain.woff') format('woff');
     src: url('//base2t.one/assets/fonts/infini/infini-romain.woff2') format('woff2'),
          url('//base2t.one/assets/fonts/infini/infini-romain.woff') format('woff');
     font-weight: normal;
@@ -228,17 +228,33 @@ a {
 }
 
 .header {
-  padding: .5em 1em 2em;
+  padding: 2em 1em;
+  text-align: center;
+  position: relative;
 
-  @media(max-width: 639px) {
-    padding-top: 3em;
+  @media(min-width: 860px) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    padding-top: .5em;
+    padding-bottom: 10em;
   }
 }
 
 .header p {
   font-size: 1em;
+  padding-top: 1em;
+  margin: 0;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+
   @media(max-width: 639px) {
     font-size: .875em;
+  }
+
+  @media(min-width: 860px) {
+    position: absolute;
+    bottom:0;left:0;right:0;
+    padding-bottom: 2em;
   }
 }
 
@@ -444,15 +460,31 @@ nav ul {
   // border-bottom-right-radius: 3px;
   position: absolute;
   background-color: $baseA1;
+  color: $baseD5;
 
-  @media(max-width: 927px) {
+  @media(max-width: 859px) {
     right:0;
   }
 
-  @media(min-width: 928px) {
-    margin: -4em 0 0 1em;
+  @media(min-width: 860px) {
+    text-align: right;
+    width: 15%;
+    min-width: 8rem;
+    top: -3.53em;
+    left: 5%;
+    right: auto;
     border-radius: 3px;
+
+    .nav-themes-open & {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
   }
+
+  &:hover {
+    background-color: $baseA0;
+  }
+
 }
 
 // end menu
@@ -468,12 +500,12 @@ nav ul {
 
 .row,
 .content {
-  padding-left: 1.5em;
+  padding-left:  1.5em;
   padding-right: 1.5em;
 
   @media(min-width: 641px) {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left:  5%;
+    padding-right: 5%;
   }
 }
 
@@ -481,6 +513,7 @@ nav ul {
 .content {
   padding-bottom: 5em;
   transition: all .3s;
+  margin-top: 2.6em;
 
   @media(min-width: 640px) {
     width: 80%;
@@ -496,22 +529,23 @@ nav ul {
 
 .js .has-themes-hidden {
   width: 100%;
+  margin-top: 0;
 }
 
 .nav-themes-hidden ~ .content {
-  padding-top: 2em;
+  padding-top: 3.5em;
 
   @media(min-width: 928px) {
-    padding-top: 0;
+    padding-top: 2em;
   }
 }
 
-.nav-themes-open ~ .content {
-
-  @media(min-width: 640px) and (max-width: 927px) {
-    padding-top: 3em;
-  }
-}
+// .nav-themes-open ~ .content {
+//
+//   @media(min-width: 640px) and (max-width: 927px) {
+//     padding-top: 3em;
+//   }
+// }
 
 .nav-themes {
   flex-grow: 1;
@@ -523,16 +557,16 @@ nav ul {
 }
 
 .nav-themes-open {
+  @media(max-width: 860px) {
+    padding-top: 3.5em;
+  }
 
   @media(max-width: 639px) {
     width: 100%;
   }
-  @media(max-width: 927px) {
-    padding-top: 3.5em;
-  }
   @media(min-width: 640px) {
     width: 20%;
-    min-width: 7em;
+    min-width: 8rem;
   }
 }
 
@@ -892,8 +926,8 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   margin-left: -1.5em;
 
   @media(min-width: 641px) {
-    margin-right: -3em;
-    margin-left: -3em;
+    margin-right: -7%;
+    margin-left: -7%;
   }
 }
 
@@ -961,6 +995,10 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 
 .note {
   background-color: $baseC5;
+}
+
+.row.note {
+  padding-top: 0;
 }
 
 // lists

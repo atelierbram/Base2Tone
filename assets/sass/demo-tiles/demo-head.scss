@@ -18,11 +18,14 @@
 }
 
 .header {
-  padding: .5em 1em 2em;
+  padding: 2em 1em;
   text-align: center;
 
-  @media(max-width: 640px) {
-    padding-top: 3em;
+  @media(min-width: 640px) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    padding-top: .5em;
+    padding-bottom: 5em;
   }
 }
 
@@ -33,12 +36,19 @@
 
 .header p {
   font-size: 1em;
+  padding-top: 1em;
   margin: 0;
   letter-spacing: 1px;
   word-spacing: -1px;
 
-  @media(max-width: 640px) {
+  @media(max-width: 639px) {
     font-size: .875em;
+  }
+
+  @media(min-width: 860px) {
+    position: absolute;
+    bottom:0;left:0;right:0;
+    padding-bottom: 2em;
   }
 }
 
