@@ -21,14 +21,14 @@ pre[class*="language-"] {
 
 .prism-dark code[class*="language-"],
 .prism-dark pre[class*="language-"] {
-  background: #322d29;
-  color: #88786d;
+  background: #<%- base["A0"]["hex"] %>;
+  color: #<%- base["B3"]["hex"] %>;
 }
 
 .prism-light code[class*="language-"],
 .prism-light pre[class*="language-"] {
-  background: #f2efe8;
-  color: #88786d;
+  background: #<%- base["C7"]["hex"] %>;
+  color: #<%- base["B3"]["hex"] %>;
 }
 
 .prism-dark pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -36,7 +36,7 @@ pre[class*="language-"] {
 .prism-dark pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-dark code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #6f5849;
+  background: #<%- base["B0"]["hex"] %>;
 }
 
 .prism-light pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -44,7 +44,7 @@ pre[class*="language-"] {
 .prism-light pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-light code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #f2efe8;
+  background: #<%- base["C7"]["hex"] %>;
 }
 
 /* Code blocks */
@@ -65,7 +65,7 @@ pre[class*="language-"] {
 .prism-dark .token.doctype,
 .prism-dark .token.cdata,
 .prism-dark .token.punctuation {
-  color: #6a5f58;
+  color: #<%- base["A3"]["hex"] %>;
 }
 
 .prism-light .token.comment,
@@ -73,7 +73,7 @@ pre[class*="language-"] {
 .prism-light .token.doctype,
 .prism-light .token.cdata,
 .prism-light .token.punctuation {
-  color: #bbb4a5;
+  color: #<%- base["C4"]["hex"] %>;
 }
 
 .token.namespace {
@@ -83,45 +83,45 @@ pre[class*="language-"] {
 .prism-dark .token.tag,
 .prism-dark .token.operator,
 .prism-dark .token.number {
-  color: #bfa05a;
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .prism-light .token.tag,
 .prism-light .token.operator,
 .prism-light .token.number {
-  color: #6f5849;
+  color: #<%- base["B0"]["hex"] %>;
 }
 
 .prism-dark .token.property,
 .prism-dark .token.function {
-  color: #88786d;
+  color: #<%- base["B3"]["hex"] %>;
 }
 
 .prism-light .token.property,
 .prism-light .token.function {
-  color: #bfa05a;
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .prism-dark .token.tag-id,
 .prism-dark .token.selector,
 .prism-dark .token.atrule-id {
-  color: #fff3eb;
+  color: #<%- base["B7"]["hex"] %>;
 }
 
 .prism-light .token.tag-id,
 .prism-light .token.selector,
 .prism-light .token.atrule-id {
-  color: #9c8349;
+  color: #<%- base["D0"]["hex"] %>;
 }
 
 .prism-dark code.language-javascript,
 .prism-dark .token.attr-name {
-  color: #a48774;
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .prism-light code.language-javascript,
 .prism-light .token.attr-name {
-  color: #bfa05a;
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .prism-dark code.language-css,
@@ -141,7 +141,7 @@ pre[class*="language-"] {
 .prism-dark .token.statement,
 .prism-dark .token.regex,
 .prism-dark .token.atrule {
-  color: #fcc440;
+  color: #<%- base["D7"]["hex"] %>;
 }
 
 .prism-light code.language-css,
@@ -161,17 +161,17 @@ pre[class*="language-"] {
 .prism-light .token.statement,
 .prism-light .token.regex,
 .prism-light .token.atrule {
-  color: #816d5f;
+  color: #<%- base["B2"]["hex"] %>;
 }
 
 .prism-dark .token.placeholder,
 .prism-dark .token.variable {
-  color: #fcc440;
+  color: #<%- base["D7"]["hex"] %>;
 }
 
 .prism-light .token.placeholder,
 .prism-light .token.variable {
-  color: #a48774;
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .token.deleted {
@@ -183,11 +183,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #fff3eb;
+  border-bottom: 1px dotted #<%- base["B7"]["hex"] %>;
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #9c8349;
+  border-bottom: 1px dotted #<%- base["D0"]["hex"] %>;
 }
 
 .token.italic {
@@ -200,11 +200,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.important {
-  color: #a48774;
+  color: #<%- base["B5"]["hex"] %>;
 }
 
 .prism-light .token.important {
-  color: #bfa05a;
+  color: #<%- base["D2"]["hex"] %>;
 }
 
 .token.entity {
@@ -216,10 +216,9 @@ pre > code.highlight {
 }
 
 .prism-dark pre > code.highlight {
-  outline: .4em solid #816d5f;
+  outline: .4em solid #<%- base["B2"]["hex"] %>;
 }
 
 .prism-light pre > code.highlight {
-  outline: .4em solid #bfa05a;
+  outline: .4em solid #<%- base["D2"]["hex"] %>;
 }
-
