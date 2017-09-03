@@ -327,16 +327,16 @@ svg {
 }
 
 .domready [id*="-shadow"] path {
-  animation: glyph-opacity 3s infinite linear;
+  animation: glyph-opacity 30s infinite linear;
 }
 
 .domready [id*="-inner"] path {
-  animation: glyph-fill 3s infinite linear;
+  animation: glyph-fill 30s infinite linear;
 }
 
 .domready [id="glyphs-base-shadow"] path,
 .domready [id="logo-glyphs-tone-inner"] path {
-  animation-delay: 1.5s;
+  animation-delay: 15s;
 }
 
 // css-animations
