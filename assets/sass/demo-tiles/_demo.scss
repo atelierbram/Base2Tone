@@ -549,7 +549,7 @@ nav ul {
 }
 
 .nav-themes-hidden ~ .content {
-  padding-top: 3.5em;
+  padding-top: 3em;
 
   @media(min-width: 928px) {
     padding-top: 2em;
@@ -574,7 +574,7 @@ nav ul {
 
 .nav-themes-open {
   @media(max-width: 860px) {
-    padding-top: 3.5em;
+    padding-top: 3em;
   }
 
   @media(max-width: 639px) {
