@@ -19,7 +19,8 @@ include '../inc/header.inc';
   include '../inc/demo-tiles-header_index.inc';
   include '../inc/demo-tiles.inc';
   include '../inc/code-samples.inc';
-  include '../../output/svg/circles-base2tone-space.svg.inc';
+  include '../../output/svg/interior-base2tone-space.svg.inc';
+  // include '../../output/svg/circles-base2tone-space.svg.inc';
   include '../../output/html/table/table-base2tone-space.inc';
 ?>
   </div> <!-- /.content #content -->

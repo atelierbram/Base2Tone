@@ -191,10 +191,10 @@ a {
 .content a {
   display: inline-block;
   line-height: 1.25;
-  color: $baseD2;
+  color: $baseD6;
 
  &:hover {
-   color: $baseD1;
+   color: $baseD7;
    box-shadow: 0 4px 0 $baseD7;
  }
 
@@ -990,6 +990,12 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
   page-break-inside: avoid; // Firefox
   break-inside: avoid; // IE 10+
 }
+
+.content .credits {
+  text-align: right;
+  max-width: initial;
+}
+
 // http://rscss.io/
 // helpers
 ._mbs {
@@ -1004,6 +1010,17 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 ._mbl {
   margin-bottom: 1.5rem !important;
 }
+._mbxl {
+  margin-bottom: 2rem !important;
+}
+
+.mw-75vh {
+  max-width: 75vh;
+}
+
+// .center {
+//   margin: 0 auto;
+// }
 
 .fs-larger {
   font-size: 1.25em;
