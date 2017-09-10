@@ -1,4 +1,3 @@
-<?php ob_start('compress_markup'); ?><section class="svg-interior"><h3 class="h3 _mbxl">Templates for illustrations</h3><div class="mw-75vh">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
   <g id="Background">
     <rect fill="#8a8586" width="800" height="800"/>
@@ -836,11 +835,5 @@
       </g>
     </g>
   </g>
-</svg><p class="credits _mtm"><a href="http://www.freepik.com/free-vector/house-interior-with-armchair-and-shelves_1056598.htm">Designed by Freepik</a></p></div>
-</section><?php ob_end_flush(); function compress_markup($buffer) {
-  $search = array("/>[[:space:]]+/", "/[[:space:]]+</");
-  $replace = array(">","<");
-  return preg_replace($search, $replace, $buffer);
-}
-?>
+</svg>
 

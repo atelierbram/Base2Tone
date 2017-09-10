@@ -134,12 +134,14 @@ ul {
 }
 
 sup,
-small {
+small,
+.small {
   font-size: .875em;
 }
 
 .wf-active body,
-.wf-active button {
+.wf-active button,
+.wf-active .button {
   font-family: infiniregular, AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
 }
 
@@ -195,7 +197,7 @@ a {
 
  &:hover {
    color: $baseD7;
-   box-shadow: 0 4px 0 $baseD7;
+   box-shadow: 0 .1em 0 $baseD7;
  }
 
 }
@@ -677,7 +679,8 @@ nav ul {
 }
 
 .cf {
-  overflow: auto;
+  // overflow: auto;
+  overflow: hidden;
 }
 
 .w-1v2 {
@@ -811,7 +814,15 @@ section h3 {
   background-color: $baseA1;
 }
 
-button {
+button,
+.content .button,
+.credits a {
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+
+button,
+.content .button {
   -webkit-appearance: none;
   overflow: visible;
   border-radius: 4px;
@@ -830,21 +841,26 @@ button {
   vertical-align: top;
   width: auto;
   font: normal 1rem/1.3 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
-  letter-spacing: 1px;
-  word-spacing: -1px;
+  // letter-spacing: 1px;
+  // word-spacing: -1px;
 }
 
-button:focus {
+button:focus,
+.content .button:focus {
   box-shadow: $baseD0 0 0 5px 0;
   z-index: 1;
 }
 
-button:hover {
+button:hover,
+.content .button:hover {
+  color: $baseB7;
+  box-shadow: none;
   background-color: adjust-color($baseD2, $lightness: 5%);
   text-decoration: none;
 }
 
-button:active {
+button:active,
+.content .button:active {
   box-shadow: inset rgba($baseB3, 0.25) 0 1px 2px 0;
   border-color: adjust-color($baseB3,$lightness:-5%) adjust-color($baseD0,$lightness:-10%) adjust-color($baseD0,$lightness:-15%);
 }
@@ -992,6 +1008,7 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
 }
 
 .content .credits {
+  float: right;
   text-align: right;
   max-width: initial;
 }
@@ -1080,7 +1097,8 @@ table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
     font-size: 1.125em;
   }
 
-  button {
+  button,
+  .button {
     font-size: 1.25rem;
   }
 
