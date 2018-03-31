@@ -14,6 +14,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Highlight.js](https://github.com/atelierbram/Base2Tone-highlight.js)
 - [HyperTerm](https://github.com/atelierbram/Base2Tone-hyperterm)
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
+- [Terminal – Mac Os X](https://github.com/atelierbram/Base2Tone-terminal)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Sublime Text (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
