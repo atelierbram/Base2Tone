@@ -11,7 +11,7 @@
       <li><a href="https://github.com/atelierbram/Base2Tone-terminal">Terminal <small>(Mac OS X)</small></a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
-      <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text (and Textmate)</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text, Visual Studio Code (and Textmate)</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-xrdb">XRDB</a></li>
     </ul>
