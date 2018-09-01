@@ -17,9 +17,12 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Terminal – Mac Os X](https://github.com/atelierbram/Base2Tone-terminal)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
-- [Sublime Text, Visual Studio Code (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
+- [Sublime Text (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
+- [Visual Studio Code](https://github.com/atelierbram/Base2Tone-VSCode-Themes)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
 - [XRDB](https://github.com/atelierbram/Base2Tone-xrdb)
+
+For Visual Studio Code Marketplace: [marketplace.visualstudio.com/items?itemName=Atelierbram.base2tone-vscode-themes](https://marketplace.visualstudio.com/items?itemName=Atelierbram.base2tone-vscode-themes)
 
 ![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_696x461.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
