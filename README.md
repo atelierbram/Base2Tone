@@ -18,8 +18,8 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Sublime Text (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
-- [Visual Studio Code](https://github.com/atelierbram/Base2Tone-VSCode-Themes)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
+- [Visual Studio Code](https://github.com/atelierbram/Base2Tone-VSCode-Themes)
 - [XRDB](https://github.com/atelierbram/Base2Tone-xrdb)
 
 For Visual Studio Code Marketplace: [marketplace.visualstudio.com/items?itemName=Atelierbram.base2tone-vscode-themes](https://marketplace.visualstudio.com/items?itemName=Atelierbram.base2tone-vscode-themes)
