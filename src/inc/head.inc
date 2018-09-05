@@ -10,9 +10,9 @@
     <link rel="preload" href="<?php echo $rootUrl; ?>assets/css/demo-tiles/base2tone-<?php echo $theme; ?>.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="<?php echo $rootUrl; ?>assets/css/demo-tiles/base2tone-<?php echo $theme; ?>.css"></noscript>
   <script><?php include "../inc/head-detect-js.inc"; ?></script>
-  <link rel="apple-touch-icon" sizes="180x180" href="http://base2t.one/assets/img/favicon/apple-touch-icon.png?v=2">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://base2t.one/assets/img/favicon/favicon-32x32.png?v=2">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://base2t.one/assets/img/favicon/favicon-16x16.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://base2t.one/assets/img/favicon/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://base2t.one/assets/img/favicon/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://base2t.one/assets/img/favicon/favicon-16x16.png?v=2">
   <link rel="manifest" href="https://base2t.one/assets/img/favicon/manifest.json?v=2">
   <link rel="mask-icon" href="https://base2t.one/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#7b736f">
   <link rel="shortcut icon" href="https://base2t.one/assets/img/favicon/favicon.ico?v=2">
