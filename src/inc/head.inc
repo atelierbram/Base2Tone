@@ -13,12 +13,12 @@
   <link rel="apple-touch-icon" sizes="180x180" href="http://base2t.one/assets/img/favicon/apple-touch-icon.png?v=2">
   <link rel="icon" type="image/png" sizes="32x32" href="http://base2t.one/assets/img/favicon/favicon-32x32.png?v=2">
   <link rel="icon" type="image/png" sizes="16x16" href="http://base2t.one/assets/img/favicon/favicon-16x16.png?v=2">
-  <link rel="manifest" href="http://base2t.one/assets/img/favicon/manifest.json?v=2">
-  <link rel="mask-icon" href="http://base2t.one/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#7b736f">
-  <link rel="shortcut icon" href="http://base2t.one/assets/img/favicon/favicon.ico?v=2">
+  <link rel="manifest" href="https://base2t.one/assets/img/favicon/manifest.json?v=2">
+  <link rel="mask-icon" href="https://base2t.one/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#7b736f">
+  <link rel="shortcut icon" href="https://base2t.one/assets/img/favicon/favicon.ico?v=2">
   <meta name="apple-mobile-web-app-title" content="Base2Tone">
   <meta name="application-name" content="Base2Tone">
-  <meta name="msapplication-config" content="http://base2t.one/assets/img/favicon/browserconfig.xml?v=2">
+  <meta name="msapplication-config" content="https://base2t.one/assets/img/favicon/browserconfig.xml?v=2">
   <meta name="theme-color" content="#fbf9f9">
   </head>
   <body class="theme-<?php echo $id; ?>">
