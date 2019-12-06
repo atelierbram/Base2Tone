@@ -1,4 +1,4 @@
-<?php ?><header class="header"><h1><a href="http://base2t.one" class="logo"><span class="visuallyhidden">Base2Tone</span><?php ob_start('compress_svg'); ?>
+<?php ?><header class="header"><h1><a href="https://base2t.one" class="logo"><span class="visuallyhidden">Base2Tone</span><?php ob_start('compress_svg'); ?>
 <!-- <img src="http://base2t.one/assets/img/svg/logo-infini_896x176.svg" class="logo-svg"> -->
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 896 176">
