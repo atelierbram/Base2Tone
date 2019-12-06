@@ -11,11 +11,14 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-earth.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-earth.inc"
   base16-builder --scheme "../db/schemes/base2tone-desert.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-desert.inc"
   base16-builder --scheme "../db/schemes/base2tone-pool.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-pool.inc"
+  base16-builder --scheme "../db/schemes/base2tone-suburb.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-suburb.inc"
   base16-builder --scheme "../db/schemes/base2tone-lake.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-lake.inc"
   base16-builder --scheme "../db/schemes/base2tone-cave.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-cave.inc"
   base16-builder --scheme "../db/schemes/base2tone-heath.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-heath.inc"
   base16-builder --scheme "../db/schemes/base2tone-drawbridge.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-drawbridge.inc"
   base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-meadow.inc"
+  base16-builder --scheme "../db/schemes/base2tone-garden.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-garden.inc"
+  base16-builder --scheme "../db/schemes/base2tone-lavender.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-lavender.inc"
  }
 
 # execute it

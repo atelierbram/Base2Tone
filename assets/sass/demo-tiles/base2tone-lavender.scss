@@ -1,0 +1,38 @@
+$baseA0: hsl(254, 18%, 14%);
+$baseA1: hsl(254, 17%, 19%);
+$baseA2: hsl(254, 16%, 32%);
+$baseA3: hsl(254, 16%, 42%);
+$baseA4: hsl(254, 16%, 47%);
+$baseA5: hsl(254, 16%, 55%);
+$baseA6: hsl(254, 16%, 63%);
+$baseA7: hsl(254, 16%, 71%);
+
+$baseB0: hsl(254, 75%, 61%);
+$baseB1: hsl(254, 80%, 66%);
+$baseB2: hsl(254, 87%, 71%);
+$baseB3: hsl(254, 97%, 76%);
+$baseB4: hsl(254, 97%, 81%);
+$baseB5: hsl(254, 97%, 86%);
+$baseB6: hsl(254, 97%, 91%);
+$baseB7: hsl(254, 100%, 96%);
+
+$baseC0: hsl(275, 9%, 48%);
+$baseC1: hsl(275, 10%, 55%);
+$baseC2: hsl(275, 12%, 62%);
+$baseC3: hsl(275, 15%, 69%);
+$baseC4: hsl(275, 20%, 76%);
+$baseC5: hsl(275, 25%, 84%);
+$baseC6: hsl(275, 30%, 92%);
+$baseC7: hsl(275, 35%, 98%);
+
+$baseD0: hsl(275, 100%, 63%);
+$baseD1: hsl(275, 100%, 67%);
+$baseD2: hsl(275, 100%, 71%);
+$baseD3: hsl(275, 100%, 75%);
+$baseD4: hsl(275, 100%, 79%);
+$baseD5: hsl(275, 100%, 83%);
+$baseD6: hsl(275, 100%, 87%);
+$baseD7: hsl(275, 100%, 91%);
+
+@import "../../output/prism/_prism-base2tone-lavender";
+@import "demo";

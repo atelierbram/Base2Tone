@@ -1,3 +1,152 @@
-body{margin:0;font:100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;background:inherit;color:#111;min-height:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.bg-dark,.bg-dark body{background-color:#726d8b;color:#fff}.header{background:#f0f0fa}.header{padding:2em 1em;text-align:center}@media (min-width: 640px){.header{-webkit-clip-path:polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);clip-path:polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);padding-top:.5em;padding-bottom:5em}}.header a,.footer a{color:#515167}.header p{font-size:1em;padding-top:1em;margin:0;letter-spacing:1px;word-spacing:-1px}@media (max-width: 639px){.header p{font-size:.875em}}@media (min-width: 860px){.header p{position:absolute;bottom:0;left:0;right:0;padding-bottom:2em}}[id="logo-glyphs-base"]{color:#e66e33}h1{margin:0;display:inline-block;font-size:2.5rem}.logo{position:relative;display:inline-block;vertical-align:middle}@media (min-width: 320px){.logo{width:288px;height:0;padding-bottom:20%}}@media (min-width: 690px){.logo{min-width:555px;width:90vw}}img,svg{max-width:100%}@media (max-width: 319px){.logo svg{display:none}}@media (min-width: 320px){.logo svg{position:absolute;top:0;right:0;bottom:0;left:0}}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.nav-themes-hidden{width:0;overflow:hidden}nav,.container-flex,h3,section{opacity:0}
+/* line 1, ../../sass/demo-tiles/demo-head.scss */
+body {
+  margin: 0;
+  font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  background: inherit;
+  color: #111;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+/* line 10, ../../sass/demo-tiles/demo-head.scss */
+.bg-dark,
+.bg-dark body {
+  background-color: #726d8b;
+  color: #fff;
+}
+
+/* line 16, ../../sass/demo-tiles/demo-head.scss */
+.header {
+  background: #f0f0fa;
+}
+
+/* line 20, ../../sass/demo-tiles/demo-head.scss */
+.header {
+  padding: 2em 1em;
+  text-align: center;
+}
+@media (min-width: 640px) {
+  /* line 20, ../../sass/demo-tiles/demo-head.scss */
+  .header {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 80% 75%, 75% 100%, 25% 100%, 20% 75%, 0 67%);
+    padding-top: .5em;
+    padding-bottom: 5em;
+  }
+}
+
+/* line 32, ../../sass/demo-tiles/demo-head.scss */
+.header a,
+.footer a {
+  color: #515167;
+}
+
+/* line 37, ../../sass/demo-tiles/demo-head.scss */
+.header p {
+  font-size: 1em;
+  padding-top: 1em;
+  margin: 0;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+@media (max-width: 639px) {
+  /* line 37, ../../sass/demo-tiles/demo-head.scss */
+  .header p {
+    font-size: .875em;
+  }
+}
+@media (min-width: 860px) {
+  /* line 37, ../../sass/demo-tiles/demo-head.scss */
+  .header p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 2em;
+  }
+}
+
+/* line 55, ../../sass/demo-tiles/demo-head.scss */
+[id="logo-glyphs-base"] {
+  color: #e66e33;
+}
+
+/* line 66, ../../sass/demo-tiles/demo-head.scss */
+h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+/* line 73, ../../sass/demo-tiles/demo-head.scss */
+.logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (min-width: 320px) {
+  /* line 73, ../../sass/demo-tiles/demo-head.scss */
+  .logo {
+    width: 288px;
+    height: 0;
+    padding-bottom: 20%;
+  }
+}
+@media (min-width: 690px) {
+  /* line 73, ../../sass/demo-tiles/demo-head.scss */
+  .logo {
+    min-width: 555px;
+    width: 90vw;
+  }
+}
+
+/* line 91, ../../sass/demo-tiles/demo-head.scss */
+img,
+svg {
+  max-width: 100%;
+}
+
+@media (max-width: 319px) {
+  /* line 96, ../../sass/demo-tiles/demo-head.scss */
+  .logo svg {
+    display: none;
+  }
+}
+@media (min-width: 320px) {
+  /* line 96, ../../sass/demo-tiles/demo-head.scss */
+  .logo svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+/* line 120, ../../sass/demo-tiles/demo-head.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 135, ../../sass/demo-tiles/demo-head.scss */
+.nav-themes-hidden {
+  width: 0;
+  overflow: hidden;
+}
+
+/* line 141, ../../sass/demo-tiles/demo-head.scss */
+nav,
+.container-flex,
+h3,
+section {
+  opacity: 0;
+}
 
 /*# sourceMappingURL=demo-head.css.map */

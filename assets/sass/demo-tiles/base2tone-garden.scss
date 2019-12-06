@@ -1,0 +1,38 @@
+$baseA0: hsl(117, 2%, 12%);
+$baseA1: hsl(117, 2%, 17%);
+$baseA2: hsl(117, 2%, 32%);
+$baseA3: hsl(117, 2%, 37%);
+$baseA4: hsl(117, 2%, 42%);
+$baseA5: hsl(117, 2%, 52%);
+$baseA6: hsl(117, 3%, 60%);
+$baseA7: hsl(117, 4%, 68%);
+
+$baseB0: hsl(117, 70%, 30%);
+$baseB1: hsl(117, 65%, 35%);
+$baseB2: hsl(117, 50%, 45%);
+$baseB3: hsl(117, 45%, 50%);
+$baseB4: hsl(117, 50%, 60%);
+$baseB5: hsl(117, 50%, 70%);
+$baseB6: hsl(117, 45%, 80%);
+$baseB7: hsl(117, 40%, 90%);
+
+$baseC0: hsl(27, 12%, 46%);
+$baseC1: hsl(27, 13%, 53%);
+$baseC2: hsl(27, 14%, 60%);
+$baseC3: hsl(27, 14%, 67%);
+$baseC4: hsl(27, 16%, 74%);
+$baseC5: hsl(27, 21%, 82%);
+$baseC6: hsl(27, 26%, 90%);
+$baseC7: hsl(27, 31%, 98%);
+
+$baseD0: hsl(27, 85%, 40%);
+$baseD1: hsl(27, 75%, 45%);
+$baseD2: hsl(27, 70%, 50%);
+$baseD3: hsl(27, 70%, 55%);
+$baseD4: hsl(27, 65%, 60%);
+$baseD5: hsl(27, 60%, 65%);
+$baseD6: hsl(27, 50%, 70%);
+$baseD7: hsl(27, 40%, 80%);
+
+@import "../../output/prism/_prism-base2tone-garden";
+@import "demo";

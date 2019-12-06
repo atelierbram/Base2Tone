@@ -21,14 +21,14 @@ pre[class*="language-"] {
 
 .prism-dark code[class*="language-"],
 .prism-dark pre[class*="language-"] {
-  background: #1e2338;
-  color: #4a68fc;
+  background: #1e202f;
+  color: #8696fd;
 }
 
 .prism-light code[class*="language-"],
 .prism-light pre[class*="language-"] {
-  background: #f9fbfb;
-  color: #6d85fd;
+  background: #fbf9fa;
+  color: #8696fd;
 }
 
 .prism-dark pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -36,7 +36,7 @@ pre[class*="language-"] {
 .prism-dark pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-dark code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #2040df;
+  background: #5165e6;
 }
 
 .prism-light pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -44,7 +44,7 @@ pre[class*="language-"] {
 .prism-light pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 .prism-light code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #f9fbfb;
+  background: #fbf9fa;
 }
 
 /* Code blocks */
@@ -65,7 +65,7 @@ pre[class*="language-"] {
 .prism-dark .token.doctype,
 .prism-dark .token.cdata,
 .prism-dark .token.punctuation {
-  color: #51587b;
+  color: #4f5472;
 }
 
 .prism-light .token.comment,
@@ -73,7 +73,7 @@ pre[class*="language-"] {
 .prism-light .token.doctype,
 .prism-light .token.cdata,
 .prism-light .token.punctuation {
-  color: #b7c0c2;
+  color: #c2b7bc;
 }
 
 .token.namespace {
@@ -83,45 +83,45 @@ pre[class*="language-"] {
 .prism-dark .token.tag,
 .prism-dark .token.operator,
 .prism-dark .token.number {
-  color: #42b7d7;
+  color: #f25a99;
 }
 
 .prism-light .token.tag,
 .prism-light .token.operator,
 .prism-light .token.number {
-  color: #2040df;
+  color: #5165e6;
 }
 
 .prism-dark .token.property,
 .prism-dark .token.function {
-  color: #4a68fc;
+  color: #8696fd;
 }
 
 .prism-light .token.property,
 .prism-light .token.function {
-  color: #51c6e6;
+  color: #f25a99;
 }
 
 .prism-dark .token.tag-id,
 .prism-dark .token.selector,
 .prism-dark .token.atrule-id {
-  color: #e1e6ff;
+  color: #ebedff;
 }
 
 .prism-light .token.tag-id,
 .prism-light .token.selector,
 .prism-light .token.atrule-id {
-  color: #289dbd;
+  color: #d14781;
 }
 
 .prism-dark code.language-javascript,
 .prism-dark .token.attr-name {
-  color: #a5b3fe;
+  color: #b9c2fe;
 }
 
 .prism-light code.language-javascript,
 .prism-light .token.attr-name {
-  color: #42b7d7;
+  color: #f25a99;
 }
 
 .prism-dark code.language-css,
@@ -141,7 +141,7 @@ pre[class*="language-"] {
 .prism-dark .token.statement,
 .prism-dark .token.regex,
 .prism-dark .token.atrule {
-  color: #71d7f4;
+  color: #ffb3d2;
 }
 
 .prism-light code.language-css,
@@ -161,17 +161,17 @@ pre[class*="language-"] {
 .prism-light .token.statement,
 .prism-light .token.regex,
 .prism-light .token.atrule {
-  color: #6d85fd;
+  color: #7586f5;
 }
 
 .prism-dark .token.placeholder,
 .prism-dark .token.variable {
-  color: #71d7f4;
+  color: #ffb3d2;
 }
 
 .prism-light .token.placeholder,
 .prism-light .token.variable {
-  color: #a5b3fe;
+  color: #b9c2fe;
 }
 
 .token.deleted {
@@ -183,11 +183,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #e1e6ff;
+  border-bottom: 1px dotted #ebedff;
 }
 
 .prism-dark .token.inserted {
-  border-bottom: 1px dotted #289dbd;
+  border-bottom: 1px dotted #d14781;
 }
 
 .token.italic {
@@ -200,11 +200,11 @@ pre[class*="language-"] {
 }
 
 .prism-dark .token.important {
-  color: #a5b3fe;
+  color: #b9c2fe;
 }
 
 .prism-light .token.important {
-  color: #42b7d7;
+  color: #f25a99;
 }
 
 .token.entity {
@@ -216,10 +216,10 @@ pre > code.highlight {
 }
 
 .prism-dark pre > code.highlight {
-  outline: .4em solid #3b5af1;
+  outline: .4em solid #7586f5;
 }
 
 .prism-light pre > code.highlight {
-  outline: .4em solid #42b7d7;
+  outline: .4em solid #f25a99;
 }
 

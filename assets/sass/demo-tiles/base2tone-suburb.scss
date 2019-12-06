@@ -1,0 +1,38 @@
+$baseA0: hsl(232, 22%, 15%);
+$baseA1: hsl(232, 20%, 20%);
+$baseA2: hsl(232, 19%, 33%);
+$baseA3: hsl(232, 18%, 38%);
+$baseA4: hsl(232, 17%, 43%);
+$baseA5: hsl(232, 16%, 51%);
+$baseA6: hsl(232, 15%, 59%);
+$baseA7: hsl(232, 14%, 67%);
+
+$baseB0: hsl(232, 75%, 61%);
+$baseB1: hsl(232, 80%, 66%);
+$baseB2: hsl(232, 87%, 71%);
+$baseB3: hsl(232, 97%, 76%);
+$baseB4: hsl(232, 97%, 81%);
+$baseB5: hsl(232, 97%, 86%);
+$baseB6: hsl(232, 97%, 91%);
+$baseB7: hsl(232, 100%, 96%);
+
+$baseC0: hsl(335, 4%, 46%);
+$baseC1: hsl(335, 5%, 53%);
+$baseC2: hsl(335, 6%, 60%);
+$baseC3: hsl(335, 6%, 67%);
+$baseC4: hsl(335, 8%, 74%);
+$baseC5: hsl(335, 13%, 82%);
+$baseC6: hsl(335, 18%, 90%);
+$baseC7: hsl(335, 23%, 98%);
+
+$baseD0: hsl(335, 60%, 55%);
+$baseD1: hsl(335, 74%, 60%);
+$baseD2: hsl(335, 85%, 65%);
+$baseD3: hsl(335, 90%, 68%);
+$baseD4: hsl(335, 95%, 71%);
+$baseD5: hsl(335, 98%, 75%);
+$baseD6: hsl(335, 100%, 80%);
+$baseD7: hsl(335, 100%, 85%);
+
+@import "../../output/prism/_prism-base2tone-suburb";
+@import "demo";
