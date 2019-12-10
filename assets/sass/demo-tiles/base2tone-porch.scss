@@ -1,0 +1,38 @@
+$baseA0: hsl(285, 8%, 13%);
+$baseA1: hsl(285, 8%, 18%);
+$baseA2: hsl(285, 7%, 33%);
+$baseA3: hsl(285, 7%, 38%);
+$baseA4: hsl(285, 6%, 43%);
+$baseA5: hsl(285, 6%, 53%);
+$baseA6: hsl(285, 7%, 61%);
+$baseA7: hsl(285, 7%, 69%);
+
+$baseB0: hsl(285, 25%, 36%);
+$baseB1: hsl(285, 25%, 44%);
+$baseB2: hsl(285, 25%, 52%);
+$baseB3: hsl(285, 28%, 60%);
+$baseB4: hsl(285, 30%, 68%);
+$baseB5: hsl(285, 35%, 76%);
+$baseB6: hsl(285, 35%, 85%);
+$baseB7: hsl(285, 55%, 93%);
+
+$baseC0: hsl(22, 7%, 46%);
+$baseC1: hsl(22, 8%, 53%);
+$baseC2: hsl(22, 9%, 60%);
+$baseC3: hsl(22, 10%, 67%);
+$baseC4: hsl(22, 11%, 74%);
+$baseC5: hsl(22, 20%, 82%);
+$baseC6: hsl(22, 30%, 90%);
+$baseC7: hsl(22, 40%, 98%);
+
+$baseD0: hsl(22, 60%, 48%);
+$baseD1: hsl(22, 68%, 53%);
+$baseD2: hsl(22, 72%, 58%);
+$baseD3: hsl(22, 80%, 63%);
+$baseD4: hsl(22, 85%, 68%);
+$baseD5: hsl(22, 90%, 73%);
+$baseD6: hsl(22, 95%, 77%);
+$baseD7: hsl(22, 100%, 81%);
+
+@import "../../output/prism/_prism-base2tone-porch";
+@import "demo";

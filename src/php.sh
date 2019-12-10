@@ -21,6 +21,10 @@ overwrite_to_file()
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/garden/index.php" > "../demo/garden/index.html"
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/lavender/index.php" > "../demo/lavender/index.html"
  curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/suburb/index.php" > "../demo/suburb/index.html"
+ curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/mall/index.php" > "../demo/mall/index.html"
+ curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/porch/index.php" > "../demo/porch/index.html"
+ curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/field/index.php" > "../demo/field/index.html"
+ curl "http://localhost/~bram/github.com/atelierbram/Base2Tone/src/motel/index.php" > "../demo/motel/index.html"
  }
 
 # execute it

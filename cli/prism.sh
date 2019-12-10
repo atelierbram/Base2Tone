@@ -19,6 +19,10 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-meadow.scss"
   base16-builder --scheme "../db/schemes/base2tone-garden.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-garden.scss"
   base16-builder --scheme "../db/schemes/base2tone-lavender.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-lavender.scss"
+  base16-builder --scheme "../db/schemes/base2tone-mall.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-mall.scss"
+  base16-builder --scheme "../db/schemes/base2tone-porch.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-porch.scss"
+  base16-builder --scheme "../db/schemes/base2tone-field.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-field.scss"
+  base16-builder --scheme "../db/schemes/base2tone-motel.yml" --template "../db/templates/prism/prism-alt.scss.ejs" > "../output/prism/_prism-base2tone-motel.scss"
  }
 
 # execute it

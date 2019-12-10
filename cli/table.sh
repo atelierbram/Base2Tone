@@ -19,6 +19,10 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-meadow.inc"
   base16-builder --scheme "../db/schemes/base2tone-garden.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-garden.inc"
   base16-builder --scheme "../db/schemes/base2tone-lavender.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-lavender.inc"
+  base16-builder --scheme "../db/schemes/base2tone-mall.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-mall.inc"
+  base16-builder --scheme "../db/schemes/base2tone-porch.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-porch.inc"
+  base16-builder --scheme "../db/schemes/base2tone-field.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-field.inc"
+  base16-builder --scheme "../db/schemes/base2tone-motel.yml" --template "../db/templates/html/table/table.html.ejs" > "../output/html/table/table-base2tone-motel.inc"
  }
 
 # execute it

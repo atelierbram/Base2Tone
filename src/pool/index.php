@@ -17,7 +17,7 @@ include '../inc/header.inc';
   include '../inc/demo-tiles.inc';
   include '../inc/code-samples.inc';
 ob_start('compress_markup'); ?>
-  <section class="svg-interior">
+ <section class="svg-interior">
     <h3 class="h3 _mbxl">Templates for illustrations</h3>
     <div class="mw-75vh">
     <?php include '../../output/svg/interior-base2tone-pool.svg.inc'; ?>

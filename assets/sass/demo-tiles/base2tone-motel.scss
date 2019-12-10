@@ -1,0 +1,38 @@
+$baseA0: hsl(350, 2%, 14%);
+$baseA1: hsl(350, 3%, 21%);
+$baseA2: hsl(350, 4%, 34%);
+$baseA3: hsl(350, 5%, 44%);
+$baseA4: hsl(350, 5%, 50%);
+$baseA5: hsl(350, 5%, 56%);
+$baseA6: hsl(350, 7%, 62%);
+$baseA7: hsl(350, 7%, 68%);
+
+$baseB0: hsl(350, 15%, 35%);
+$baseB1: hsl(350, 14%, 43%);
+$baseB2: hsl(350, 15%, 51%);
+$baseB3: hsl(350, 16%, 59%);
+$baseB4: hsl(350, 16%, 67%);
+$baseB5: hsl(350, 20%, 75%);
+$baseB6: hsl(350, 25%, 83%);
+$baseB7: hsl(350, 40%, 90%);
+
+$baseC0: hsl(10, 6%, 49%);
+$baseC1: hsl(10, 7%, 56%);
+$baseC2: hsl(10, 8%, 63%);
+$baseC3: hsl(10, 8%, 70%);
+$baseC4: hsl(10, 10%, 77%);
+$baseC5: hsl(10, 15%, 84%);
+$baseC6: hsl(10, 20%, 91%);
+$baseC7: hsl(10, 25%, 98%);
+
+$baseD0: hsl(10, 75%, 54%);
+$baseD1: hsl(10, 80%, 59%);
+$baseD2: hsl(10, 90%, 63%);
+$baseD3: hsl(10, 90%, 68%);
+$baseD4: hsl(10, 90%, 73%);
+$baseD5: hsl(10, 100%, 78%);
+$baseD6: hsl(10, 100%, 82%);
+$baseD7: hsl(10, 100%, 87%);
+
+@import "../../output/prism/_prism-base2tone-motel";
+@import "demo";

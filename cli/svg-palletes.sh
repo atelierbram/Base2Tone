@@ -19,6 +19,10 @@ overwrite_to_file()
   base16-builder --scheme "../db/schemes/base2tone-meadow.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-meadow.svg.inc"
   base16-builder --scheme "../db/schemes/base2tone-garden.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-garden.svg.inc"
   base16-builder --scheme "../db/schemes/base2tone-lavender.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-lavender.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-mall.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-mall.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-porch.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-porch.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-field.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-field.svg.inc"
+  base16-builder --scheme "../db/schemes/base2tone-motel.yml" --template "../db/templates/svg/circles-target.svg.ejs" > "../output/svg/circles-base2tone-motel.svg.inc"
  }
 
 # execute it
