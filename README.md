@@ -11,6 +11,7 @@
 This repository is like an umbrella over these dedicated repositories for generating syntax-highlighting themes:
 
 - [CodeMirror](https://github.com/atelierbram/Base2Tone-codemirror)
+- [Gnome Terminal](https://github.com/llimllib/Base2Tone-gnome-terminal)
 - [Highlight.js](https://github.com/atelierbram/Base2Tone-highlight.js)
 - [HyperTerm](https://github.com/atelierbram/Base2Tone-hyperterm)
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
