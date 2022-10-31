@@ -16,6 +16,7 @@
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text (and Textmate)</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-vim">Vim</a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-nvim">Neovim</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-VSCode-Themes">Visual Studio Code</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-xrdb">XRDB</a></li>
     </ul>
