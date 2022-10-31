@@ -22,6 +22,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
 - [Sublime Text (and Textmate)](https://github.com/atelierbram/Base2Tone-sublime-text)
 - [Vim](https://github.com/atelierbram/Base2Tone-vim)
+- [Neovim](https://github.com/atelierbram/Base2Tone-nvim)
 - [Visual Studio Code](https://github.com/atelierbram/Base2Tone-VSCode-Themes)
 - [XRDB](https://github.com/atelierbram/Base2Tone-xrdb)
 
