@@ -13,6 +13,7 @@
       <li><a href="https://github.com/atelierbram/Base2Tone-kitty">Kitty</a></li>
       <li><a href="https://github.com/llimllib/Base2Tone-mate">mate-terminal</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-terminal">Terminal <small>(Mac OS X)</small></a></li>
+      <li><a href="https://github.com/atelierbram/Base2Tone-bat">Bat</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-markdown">Markdown (color-value tables)</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-prism">Prism</a></li>
       <li><a href="https://github.com/atelierbram/Base2Tone-sublime-text">Sublime Text (and Textmate)</a></li>
