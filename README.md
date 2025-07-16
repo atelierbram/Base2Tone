@@ -17,6 +17,7 @@ This repository is like an umbrella over these dedicated repositories for genera
 - [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2)
 - [Alacritty](https://github.com/atelierbram/Base2Tone-alacritty)
 - [Terminal – Mac Os X](https://github.com/atelierbram/Base2Tone-terminal)
+- [Bat](https://github.com/atelierbram/Base2Tone-bat)
 - [Markdown](https://github.com/atelierbram/Base2Tone-markdown)
 - [mate-terminal](https://github.com/llimllib/Base2Tone-mate)
 - [Prism](https://github.com/atelierbram/Base2Tone-prism)
